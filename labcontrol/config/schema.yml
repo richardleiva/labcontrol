@@ -1,0 +1,227 @@
+connection:                                       propel
+defaultIdMethod:                                  native
+package:                                          lib.model
+
+classes:
+  CampoResultadoPatogeno:
+    tableName:                                    campo_resultado_patogeno
+    columns:
+      id:                                         ~
+      resultado:                                  { type: varchar, size: 45 }
+      created_at:                                 ~
+      updated_at:                                 ~
+  Cliente:
+    tableName:                                    cliente
+    columns:
+      id:                                         ~
+      cedula:                                     { type: varchar, size: 45 }
+      nombre:                                     { type: varchar, size: 45 }
+      apellido:                                   { type: varchar, size: 45 }
+      direccion:                                  { type: varchar, size: 45 }
+      telefono:                                   { type: varchar, size: 45 }
+      email:                                      { type: varchar, size: 45 }
+      created_at:                                 ~
+      updated_at:                                 ~
+  Dilucion:
+    tableName:                                    dilucion
+    columns:
+      id:                                         ~
+      nombre:                                     { type: varchar, size: 255 }
+      created_at:                                 ~
+      updated_at:                                 ~
+  Enriq:
+    tableName:                                    enriq
+    columns:
+      id:                                         ~
+      enriquecimiento:                            { type: varchar, size: 255 }
+      created_at:                                 ~
+      updated_at:                                 ~
+  Medio:
+    tableName:                                    medio
+    columns:
+      id:                                         ~
+      nombre:                                     { type: varchar, size: 255 }
+      created_at:                                 ~
+      updated_at:                                 ~
+  Metodo:
+    tableName:                                    metodo
+    columns:
+      id:                                         ~
+      nombre:                                     { type: varchar, size: 45 }
+      created_at:                                 ~
+      updated_at:                                 ~
+      tipo_id:                                    { type: integer, required: true, foreignTable: tipo, foreignReference: id, onDelete: cascade }
+    indexes:
+      fk_metodo_tipo2_idx:                        [ tipo_id ]
+  Muestra:
+    tableName:                                    muestra
+    columns:
+      id:                                         ~
+      nombre_responsable:                         { type: varchar, size: 255 }
+      fecha_recepcion:                            { type: timestamp }
+      fecha_entrega:                              { type: timestamp }
+      hora_recepcion:                             { type: timestamp }
+      codigo_interno:                             { type: varchar, size: 255 }
+      cantidad:                                   { type: float }
+      temperatura_recepcion:                      { type: varchar, size: 45 }
+      temperatura_almacenamiento:                 { type: varchar, size: 45 }
+      observaciones:                              { type: longvarchar }
+      created_at:                                 ~
+      updated_at:                                 ~
+      usuario_id:                                 { type: integer, required: true, foreignTable: user_profile, foreignReference: id, onDelete: cascade }
+      muestreo_id:                                { type: integer, required: true, foreignTable: muestreo, foreignReference: id, onDelete: cascade }
+      presentacion_id:                            { type: integer, required: true, foreignTable: presentacion, foreignReference: id, onDelete: cascade }
+      norma_id:                                   { type: integer, required: true, foreignTable: norma, foreignReference: id, onDelete: cascade }
+      cliente_id:                                 { type: integer, required: true, foreignTable: cliente, foreignReference: id, onDelete: cascade }
+      tipo_muestra_id:                            { type: integer, required: true, foreignTable: tipo_muestra, foreignReference: id, onDelete: cascade }
+    indexes:
+      fk_muestras_usuario1_idx:                   [ usuario_id ]
+      fk_muestras_muestreo1_idx:                  [ muestreo_id ]
+      fk_muestras_presentacion1_idx:              [ presentacion_id ]
+      fk_muestras_norma1_idx:                     [ norma_id ]
+      fk_muestras_cliente1_idx:                   [ cliente_id ]
+      fk_muestra_tipo_muestra1_idx:               [ tipo_muestra_id ]
+  MuestraHasMetodo:
+    tableName:                                    muestra_has_metodo
+    columns:
+      id:                                         ~
+      muestra_id:                                 { type: integer, required: true, foreignTable: muestra, foreignReference: id, onDelete: cascade }
+      metodo_id:                                  { type: integer, required: true, foreignTable: metodo, foreignReference: id, onDelete: cascade }
+    indexes:
+      fk_muestra_has_metodo_metodo1_idx:          [ metodo_id ]
+      fk_muestra_has_metodo_muestra1_idx:         [ muestra_id ]
+  Muestreo:
+    tableName:                                    muestreo
+    columns:
+      id:                                         ~
+      nombre:                                     { type: varchar, size: 255 }
+      created_at:                                 ~
+      updated_at:                                 ~
+  NoPatogeno:
+    tableName:                                    no_patogeno
+    columns:
+      id:                                         ~
+      cantidad:                                   { type: float }
+      created_at:                                 ~
+      updated_at:                                 ~
+      resultado_id:                               { type: integer, required: true, foreignTable: resultado, foreignReference: id, onDelete: cascade }
+      dilucion_id:                                { type: integer, required: true, foreignTable: dilucion, foreignReference: id, onDelete: cascade }
+    indexes:
+      fk_no_patogeno_resultado1_idx:              [ resultado_id ]
+      fk_no_patogeno_dilucion1_idx:               [ dilucion_id ]
+  Norma:
+    tableName:                                    norma
+    columns:
+      id:                                         ~
+      nombre:                                     { type: varchar, size: 255 }
+      created_at:                                 ~
+      updated_at:                                 ~
+  Patogenos:
+    tableName:                                    patogenos
+    columns:
+      id:                                         ~
+      nombre_prueba:                              { type: varchar, size: 45 }
+      created_at:                                 ~
+      updated_at:                                 ~
+      resultado_id:                               { type: integer, required: true, foreignTable: resultado, foreignReference: id, onDelete: cascade }
+      campo_resultado_patogeno_id:                { type: integer, required: true, foreignTable: campo_resultado_patogeno, foreignReference: id, onDelete: cascade }
+      prueba_bioquimica_id:                       { type: integer, required: true, foreignTable: prueba_bioquimica, foreignReference: id, onDelete: cascade }
+      positivo_negativo_id:                       { type: integer, required: true, foreignTable: positivo_negativo, foreignReference: id, onDelete: cascade }
+    indexes:
+      fk_patogenos_resultado1_idx:                [ resultado_id ]
+      fk_patogenos_campo_resultado_patogeno1_idx: [ campo_resultado_patogeno_id ]
+      fk_patogenos_prueba_bioquimica1_idx:        [ prueba_bioquimica_id ]
+      fk_patogenos_positivo_negativo1_idx:        [ positivo_negativo_id ]
+  PositivoNegativo:
+    tableName:                                    positivo_negativo
+    columns:
+      id:                                         ~
+      resultado:                                  { type: varchar, size: 45 }
+      created_at:                                 ~
+      updated_at:                                 ~
+  PreEnriq:
+    tableName:                                    pre_enriq
+    columns:
+      id:                                         ~
+      pre_enriquecimiento:                        { type: varchar, size: 255 }
+      created_at:                                 ~
+      updated_at:                                 ~
+  Presentacion:
+    tableName:                                    presentacion
+    columns:
+      id:                                         ~
+      nombre:                                     { type: varchar, size: 255 }
+      created_at:                                 ~
+      updated_at:                                 ~
+  PruebaBioquimica:
+    tableName:                                    prueba_bioquimica
+    columns:
+      id:                                         ~
+      nombre:                                     { type: varchar, size: 255 }
+      created_at:                                 ~
+      updated_at:                                 ~
+  Resultado:
+    tableName:                                    resultado
+    columns:
+      id:                                         ~
+      created_at:                                 ~
+      updated_at:                                 ~
+      pre_enriq_id:                               { type: integer, required: true, foreignTable: pre_enriq, foreignReference: id, onDelete: cascade }
+      enriq_id:                                   { type: integer, required: true, foreignTable: enriq, foreignReference: id, onDelete: cascade }
+      medio_id:                                   { type: integer, required: true, foreignTable: medio, foreignReference: id, onDelete: cascade }
+      temp_incubacion_id:                         { type: integer, required: true, foreignTable: temp_incubacion, foreignReference: id, onDelete: cascade }
+      tiempo_incubacion_id:                       { type: integer, required: true, foreignTable: tiempo_incubacion, foreignReference: id, onDelete: cascade }
+      muestra_id:                                 { type: integer, required: true, foreignTable: muestra, foreignReference: id }
+    indexes:
+      fk_resultado_pre_enriq1_idx:                [ pre_enriq_id ]
+      fk_resultado_enriq1_idx:                    [ enriq_id ]
+      fk_resultado_medio1_idx:                    [ medio_id ]
+      fk_resultado_temp_incubacion1_idx:          [ temp_incubacion_id ]
+      fk_resultado_tiempo_incubacion1_idx:        [ tiempo_incubacion_id ]
+      fk_resultado_muestra1_idx:                  [ muestra_id ]
+  TempIncubacion:
+    tableName:                                    temp_incubacion
+    columns:
+      id:                                         ~
+      temperatura:                                { type: varchar, size: 45 }
+      created_at:                                 ~
+      updated_at:                                 ~
+  TiempoIncubacion:
+    tableName:                                    tiempo_incubacion
+    columns:
+      id:                                         ~
+      tiempo:                                     { type: varchar, size: 45 }
+      created_at:                                 ~
+      updated_at:                                 ~
+  Tipo:
+    tableName:                                    tipo
+    columns:
+      id:                                         ~
+      nombre:                                     { type: varchar, size: 45 }
+      created_at:                                 ~
+      updated_at:                                 ~
+  TipoMuestra:
+    tableName:                                    tipo_muestra
+    columns:
+      id:                                         ~
+      nombre:                                     { type: varchar, size: 255 }
+      created_at:                                 ~
+      updated_at:                                 ~
+  Unidad:
+    tableName:                                    unidad
+    columns:
+      id:                                         ~
+      nombre:                                     { type: varchar, size: 45 }
+      tipo:                                       { type: varchar, size: 45 }
+      created_at:                                 ~
+      updated_at:                                 ~
+  UserProfile:
+    tableName:                                    user_profile
+    columns:
+      id:                                         ~
+      nombre:                                     { type: varchar, size: 45 }
+      apellido:                                   { type: varchar, size: 45 }
+      cargo:                                      { type: varchar, size: 45 }
+      user_id:     { type: integer, foreignTable: sf_guard_user, foreignReference: id, required: true, onDelete: cascade }
+      created_at:                                 ~
+      updated_at:                                 ~

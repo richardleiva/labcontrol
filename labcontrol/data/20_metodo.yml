@@ -1,0 +1,24 @@
+Metodo:
+  metodo1: {nombre: AOAC 990.12, tipo_id:tipot1}
+  metodo2: {nombre: AOAC 966.23}
+  metodo3: {nombre: INEN 1529-5}
+  metodo4: {nombre: AOAC 991.14}
+  metodo5: {nombre: INEN 1529-6}
+  metodo6: {nombre: INEN 1529-7}
+  metodo7: {nombre: AOAC 997.02}
+  metodo8: {nombre: INEN 1529-10}
+  metodo9: {nombre: AOAC 2003.08}
+  metodo10: {nombre: INEN 1529-14}
+  metodo11: {nombre: AOAC 980.31}
+  metodo12: {nombre: A.CETRIMIDE}
+  metodo13: {nombre: AOAC 2003.01}
+  metodo14: {nombre: INEN 1529-8}
+  metodo15: {nombre: INEN 1529-8}
+  metodo16: {nombre: AOAC 967 (25-26-27)}
+  metodo17: {nombre: FDA/CFSANBAM:CAPV}
+  metodo18: {nombre: AOAC 997.03}
+  metodo19: {nombre: ISO 11290-2}
+  metodo20: {nombre: FDA}
+  metodo21: {nombre: ANAEROBIOSIS}
+  metodo22: {nombre: Metodo interno}
+  metodo23: {nombre: Otro}

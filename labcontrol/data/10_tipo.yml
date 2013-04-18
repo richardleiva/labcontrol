@@ -1,0 +1,14 @@
+Tipo:
+  tipot1: {nombre: Aguas}
+  tipot2: {nombre: Cárnicos}
+  tipot3: {nombre: Mariscos}
+  tipot4: {nombre: Barras de Cereal}
+  tipot5: {nombre: Harinas y Panificados}
+  tipot6: {nombre: Especies}
+  tipot7: {nombre: Cajas ambiente}
+  tipot8: {nombre: Hisopados}
+  tipot9: {nombre: Lácteos}
+  tipot10: {nombre: Alimentos preparados}
+  tipot11: {nombre: Enlatados}
+  tipot12: {nombre: Frutas y Verduras}
+  tipot13: {nombre: Varios}

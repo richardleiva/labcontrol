@@ -1,0 +1,7 @@
+PreEnriq:
+    preenriq1: {pre_enriquecimiento: APB}
+    preenriq2: {pre_enriquecimiento: AP}
+    preenriq3: {pre_enriquecimiento: CL}
+    preenriq4: {pre_enriquecimiento: CTS}
+    preenriq5: {pre_enriquecimiento: CF LiCl}
+    preenriq6: {pre_enriquecimiento: APBA}

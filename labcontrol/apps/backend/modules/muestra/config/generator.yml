@@ -1,0 +1,22 @@
+generator:
+  class: sfPropelGenerator
+  param:
+    model_class:           Muestra
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              Muestra
+    plural:                Muestras
+    route_prefix:          muestra
+    with_propel_route:     1
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:    
+        display: [cliente]
+      filter:  ~
+      form:    ~
+      edit:    ~
+      new:     ~

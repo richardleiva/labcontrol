@@ -1,0 +1,21 @@
+generator:
+  class: sfPropelGenerator
+  param:
+    model_class:           MuestraHasMetodo
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              MuestraHasMetodo
+    plural:                MuestraHasMetodos
+    route_prefix:          muestra_has_metodo
+    with_propel_route:     1
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:    ~
+      filter:  ~
+      form:    ~
+      edit:    ~
+      new:     ~

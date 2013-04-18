@@ -1,0 +1,10 @@
+﻿Presentacion:
+ presentacion1: {nombre: Hisopo}
+ presentacion2: {nombre: Envase plástico}
+ presentacion3: {nombre: Botella plástica}
+ presentacion4: {nombre: Envase de vidrio}
+ presentacion5: {nombre: Envase de vidrio estéril}
+ presentacion6: {nombre: Al vacío}
+ presentacion7: {nombre: En bandeja}
+ presentacion8: {nombre: Funda regular}
+ presentacion9: {nombre: En atmósfera modificada}

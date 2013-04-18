@@ -1,0 +1,5 @@
+TempIncubacion:
+    temp1: {temperatura: 35}
+    temp2: {temperatura: 37}
+    temp3: {temperatura: 47}
+    temp4: {temperatura: 4}

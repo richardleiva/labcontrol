@@ -1,0 +1,106 @@
+nopatogeno:
+  class: sfPropelRouteCollection
+  options:
+    model:                nopatogeno
+    module:               NoPatogeno
+    prefix_path:          /NoPatogeno
+    column:               id
+    with_wildcard_routes: true
+
+patogenos:
+  class: sfPropelRouteCollection
+  options:
+    model:                patogenos
+    module:               Patogenos
+    prefix_path:          /Patogenos
+    column:               id
+    with_wildcard_routes: true
+
+resultado:
+  class: sfPropelRouteCollection
+  options:
+    model:                resultado
+    module:               Resultado
+    prefix_path:          /Resultado
+    column:               id
+    with_wildcard_routes: true
+
+muestra_has_metodo:
+  class: sfPropelRouteCollection
+  options:
+    model:                MuestraHasMetodo
+    module:               muestra_has_metodo
+    prefix_path:          /muestra_has_metodo
+    column:               id
+    with_wildcard_routes: true
+
+user_profile:
+  class: sfPropelRouteCollection
+  options:
+    model:                UserProfile
+    module:               user_profile
+    prefix_path:          /user_profile
+    column:               id
+    with_wildcard_routes: true
+
+presentacion:
+  class: sfPropelRouteCollection
+  options:
+    model:                Presentacion
+    module:               presentacion
+    prefix_path:          /presentacion
+    column:               id
+    with_wildcard_routes: true
+
+cliente:
+  class: sfPropelRouteCollection
+  options:
+    model:                Cliente
+    module:               cliente
+    prefix_path:          /cliente
+    column:               id
+    with_wildcard_routes: true
+
+muestreo:
+  class: sfPropelRouteCollection
+  options:
+    model:                Muestreo
+    module:               muestreo
+    prefix_path:          /muestreo
+    column:               id
+    with_wildcard_routes: true
+
+muestra:
+  class: sfPropelRouteCollection
+  options:
+    model:                Muestra
+    module:               muestra
+    prefix_path:          /muestra
+    column:               id
+    with_wildcard_routes: true
+
+positivo_negativo:
+  class: sfPropelRouteCollection
+  options:
+    model:                PositivoNegativo
+    module:               positivo_negativo
+    prefix_path:          /positivo_negativo
+    column:               id
+    with_wildcard_routes: true
+
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+# default rules
+homepage:
+  url:   /
+  param: { module: default, action: index }
+
+# generic rules
+# please, remove them by adding more specific rules
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*

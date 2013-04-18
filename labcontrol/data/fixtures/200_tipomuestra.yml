@@ -1,0 +1,25 @@
+TipoMuestra:
+    tipo1: {nombre: Aerobios Totales}
+    tipo2: {nombre: Coliformes Totales}
+    tipo3: {nombre: Coliformes Fecales}
+    tipo4: {nombre: G. coli}
+    tipo5: {nombre: Enterobacterias}
+    tipo6: {nombre: Enterococos}
+    tipo7: {nombre: Staphylococos}
+    tipo8: {nombre: Staphylococo aureus}
+    tipo9: {nombre: Salmonella sp}
+    tipo10: {nombre: Salmonella typhi}
+    tipo11: {nombre: Vibrio sp}
+    tipo12: {nombre: Vibrio parahemolitico}
+    tipo13: {nombre: Vibrio cholerae}
+    tipo14: {nombre: Anaerobios Totales}
+    tipo15: {nombre: Anaerobios sulfitoreductores}
+    tipo16: {nombre: Clostridium sulfitoreductores}
+    tipo17: {nombre: Clostridium perfringens}
+    tipo18: {nombre: Clostridium bofulinum}
+    tipo19: {nombre: Bacilus cereus}
+    tipo20: {nombre: Pseudomona}
+    tipo21: {nombre: Pseudomona aeruginosa}
+    tipo22: {nombre: Bacterias acido lacticas}
+    tipo23: {nombre: Lactobacilus}
+    tipo24: {nombre: Mohos y Levaduras}

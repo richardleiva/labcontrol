@@ -1,0 +1,1689 @@
+mar 04 14:59:40 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /positivo_negativo with parameters array (  'module' => 'positivo_negativo',  'action' => 'index',)
+mar 04 14:59:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 04 14:59:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 04 14:59:41 symfony [info] {positivo_negativoActions} Call "positivo_negativoActions->executeIndex()"
+mar 04 14:59:41 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/positivo_negativo/templates/indexSuccess.php"
+mar 04 14:59:41 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 04 14:59:41 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 04 14:59:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 04 14:59:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 04 14:59:41 symfony [info] {sfWebDebugLogger} Configuration 355.69 ms (10)
+mar 04 14:59:41 symfony [info] {sfWebDebugLogger} Factories 998.64 ms (1)
+mar 04 14:59:41 symfony [info] {sfWebDebugLogger} Action "positivo_negativo/index" 95.58 ms (1)
+mar 04 14:59:41 symfony [info] {sfWebDebugLogger} View "Success" for "positivo_negativo/index" 324.80 ms (1)
+mar 04 14:59:41 symfony [info] {sfWebResponse} Send content (29111 o)
+mar 04 14:59:46 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /positivo_negativo/new with parameters array (  'module' => 'positivo_negativo',  'action' => 'new',)
+mar 04 14:59:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 04 14:59:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 04 14:59:46 symfony [info] {positivo_negativoActions} Call "positivo_negativoActions->executeNew()"
+mar 04 14:59:46 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/positivo_negativo/templates/newSuccess.php"
+mar 04 14:59:46 symfony [info] {sfPartialView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/positivo_negativo/templates/_form.php"
+mar 04 14:59:46 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 04 14:59:46 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 04 14:59:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 04 14:59:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 04 14:59:46 symfony [info] {sfWebDebugLogger} Configuration 9.64 ms (9)
+mar 04 14:59:46 symfony [info] {sfWebDebugLogger} Factories 37.99 ms (1)
+mar 04 14:59:46 symfony [info] {sfWebDebugLogger} Action "positivo_negativo/new" 23.72 ms (1)
+mar 04 14:59:46 symfony [info] {sfWebDebugLogger} View "Success" for "positivo_negativo/new" 196.82 ms (1)
+mar 04 14:59:46 symfony [info] {sfWebDebugLogger} Partial "positivo_negativo/_form" 160.97 ms (1)
+mar 04 14:59:46 symfony [info] {sfWebResponse} Send content (44139 o)
+mar 04 14:59:50 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /positivo_negativo with parameters array (  'module' => 'positivo_negativo',  'action' => 'index',)
+mar 04 14:59:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 04 14:59:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 04 14:59:50 symfony [info] {positivo_negativoActions} Call "positivo_negativoActions->executeIndex()"
+mar 04 14:59:50 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/positivo_negativo/templates/indexSuccess.php"
+mar 04 14:59:50 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 04 14:59:50 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 04 14:59:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 04 14:59:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 04 14:59:50 symfony [info] {sfWebDebugLogger} Configuration 9.11 ms (9)
+mar 04 14:59:50 symfony [info] {sfWebDebugLogger} Factories 40.43 ms (1)
+mar 04 14:59:50 symfony [info] {sfWebDebugLogger} Action "positivo_negativo/index" 25.11 ms (1)
+mar 04 14:59:50 symfony [info] {sfWebDebugLogger} View "Success" for "positivo_negativo/index" 18.02 ms (1)
+mar 04 14:59:50 symfony [info] {sfWebResponse} Send content (29465 o)
+mar 04 14:59:52 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /positivo_negativo/new with parameters array (  'module' => 'positivo_negativo',  'action' => 'new',)
+mar 04 14:59:52 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 04 14:59:52 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 04 14:59:52 symfony [info] {positivo_negativoActions} Call "positivo_negativoActions->executeNew()"
+mar 04 14:59:52 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/positivo_negativo/templates/newSuccess.php"
+mar 04 14:59:52 symfony [info] {sfPartialView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/positivo_negativo/templates/_form.php"
+mar 04 14:59:52 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 04 14:59:52 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 04 14:59:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 04 14:59:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 04 14:59:52 symfony [info] {sfWebDebugLogger} Configuration 9.10 ms (9)
+mar 04 14:59:52 symfony [info] {sfWebDebugLogger} Factories 35.70 ms (1)
+mar 04 14:59:52 symfony [info] {sfWebDebugLogger} Action "positivo_negativo/new" 23.39 ms (1)
+mar 04 14:59:52 symfony [info] {sfWebDebugLogger} View "Success" for "positivo_negativo/new" 36.73 ms (1)
+mar 04 14:59:52 symfony [info] {sfWebDebugLogger} Partial "positivo_negativo/_form" 17.83 ms (1)
+mar 04 14:59:52 symfony [info] {sfWebResponse} Send content (44138 o)
+mar 04 14:59:55 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /positivo_negativo with parameters array (  'module' => 'positivo_negativo',  'action' => 'index',)
+mar 04 14:59:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 04 14:59:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 04 14:59:55 symfony [info] {positivo_negativoActions} Call "positivo_negativoActions->executeIndex()"
+mar 04 14:59:55 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/positivo_negativo/templates/indexSuccess.php"
+mar 04 14:59:55 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 04 14:59:55 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 04 14:59:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 04 14:59:55 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 04 14:59:55 symfony [info] {sfWebDebugLogger} Configuration 13.71 ms (9)
+mar 04 14:59:55 symfony [info] {sfWebDebugLogger} Factories 63.52 ms (1)
+mar 04 14:59:55 symfony [info] {sfWebDebugLogger} Action "positivo_negativo/index" 16.71 ms (1)
+mar 04 14:59:55 symfony [info] {sfWebDebugLogger} View "Success" for "positivo_negativo/index" 17.52 ms (1)
+mar 04 14:59:55 symfony [info] {sfWebResponse} Send content (29466 o)
+mar 08 14:31:59 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /positivo_negativo with parameters array (  'module' => 'positivo_negativo',  'action' => 'index',)
+mar 08 14:31:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 08 14:31:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 08 14:31:59 symfony [info] {positivo_negativoActions} Call "positivo_negativoActions->executeIndex()"
+mar 08 14:32:00 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/positivo_negativo/templates/indexSuccess.php"
+mar 08 14:32:00 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 08 14:32:00 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 08 14:32:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 08 14:32:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 08 14:32:00 symfony [info] {sfWebDebugLogger} Configuration 27.75 ms (9)
+mar 08 14:32:00 symfony [info] {sfWebDebugLogger} Factories 889.14 ms (1)
+mar 08 14:32:00 symfony [info] {sfWebDebugLogger} Action "positivo_negativo/index" 118.38 ms (1)
+mar 08 14:32:00 symfony [info] {sfWebDebugLogger} View "Success" for "positivo_negativo/index" 336.64 ms (1)
+mar 08 14:32:00 symfony [info] {sfWebResponse} Send content (29109 o)
+mar 08 14:33:50 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /positivo_negativo with parameters array (  'module' => 'positivo_negativo',  'action' => 'index',)
+mar 08 14:33:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 08 14:33:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 08 14:33:50 symfony [info] {positivo_negativoActions} Call "positivo_negativoActions->executeIndex()"
+mar 08 14:33:50 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/positivo_negativo/templates/indexSuccess.php"
+mar 08 14:33:50 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 08 14:33:50 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 08 14:33:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 08 14:33:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 08 14:33:50 symfony [info] {sfWebDebugLogger} Configuration 11.02 ms (9)
+mar 08 14:33:50 symfony [info] {sfWebDebugLogger} Factories 38.18 ms (1)
+mar 08 14:33:50 symfony [info] {sfWebDebugLogger} Action "positivo_negativo/index" 18.12 ms (1)
+mar 08 14:33:50 symfony [info] {sfWebDebugLogger} View "Success" for "positivo_negativo/index" 19.10 ms (1)
+mar 08 14:33:50 symfony [info] {sfWebResponse} Send content (29409 o)
+mar 08 14:33:53 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /positivo_negativo with parameters array (  'module' => 'positivo_negativo',  'action' => 'index',)
+mar 08 14:33:53 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 08 14:33:53 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 08 14:33:53 symfony [info] {positivo_negativoActions} Call "positivo_negativoActions->executeIndex()"
+mar 08 14:33:55 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/positivo_negativo/templates/indexSuccess.php"
+mar 08 14:33:55 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 08 14:33:55 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 08 14:33:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 08 14:33:55 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 08 14:33:55 symfony [info] {sfWebDebugLogger} Configuration 9.71 ms (9)
+mar 08 14:33:55 symfony [info] {sfWebDebugLogger} Factories 40.90 ms (1)
+mar 08 14:33:55 symfony [info] {sfWebDebugLogger} Action "positivo_negativo/index" 1621.44 ms (1)
+mar 08 14:33:55 symfony [info] {sfWebDebugLogger} View "Success" for "positivo_negativo/index" 18.57 ms (1)
+mar 08 14:33:55 symfony [info] {sfWebResponse} Send content (29409 o)
+mar 08 14:43:04 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /positivo_negativo with parameters array (  'module' => 'positivo_negativo',  'action' => 'index',)
+mar 08 14:43:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 08 14:43:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 08 14:43:04 symfony [info] {positivo_negativoActions} Call "positivo_negativoActions->executeIndex()"
+mar 08 14:43:04 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/positivo_negativo/templates/indexSuccess.php"
+mar 08 14:43:04 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 08 14:43:04 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 08 14:43:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 08 14:43:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 08 14:43:04 symfony [info] {sfWebDebugLogger} Configuration 10.13 ms (9)
+mar 08 14:43:04 symfony [info] {sfWebDebugLogger} Factories 40.74 ms (1)
+mar 08 14:43:04 symfony [info] {sfWebDebugLogger} Action "positivo_negativo/index" 31.96 ms (1)
+mar 08 14:43:04 symfony [info] {sfWebDebugLogger} View "Success" for "positivo_negativo/index" 19.27 ms (1)
+mar 08 14:43:04 symfony [info] {sfWebResponse} Send content (29797 o)
+mar 13 18:47:51 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /positivo_negativo with parameters array (  'module' => 'positivo_negativo',  'action' => 'index',)
+mar 13 18:47:52 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 13 18:47:52 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 13 18:47:52 symfony [info] {positivo_negativoActions} Call "positivo_negativoActions->executeIndex()"
+mar 13 18:47:52 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/positivo_negativo/templates/indexSuccess.php"
+mar 13 18:47:52 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 13 18:47:52 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 13 18:47:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 13 18:47:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 13 18:47:52 symfony [info] {sfWebDebugLogger} Configuration 21.61 ms (9)
+mar 13 18:47:52 symfony [info] {sfWebDebugLogger} Factories 725.40 ms (1)
+mar 13 18:47:52 symfony [info] {sfWebDebugLogger} Action "positivo_negativo/index" 261.24 ms (1)
+mar 13 18:47:52 symfony [info] {sfWebDebugLogger} View "Success" for "positivo_negativo/index" 316.48 ms (1)
+mar 13 18:47:53 symfony [info] {sfWebResponse} Send content (29498 o)
+mar 25 18:24:42 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 18:24:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 18:24:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 18:24:42 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 18:24:42 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 18:24:42 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 18:24:42 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 18:24:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 18:24:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 18:24:42 symfony [info] {sfWebDebugLogger} Configuration 112.99 ms (10)
+mar 25 18:24:42 symfony [info] {sfWebDebugLogger} Factories 114.58 ms (1)
+mar 25 18:24:42 symfony [info] {sfWebDebugLogger} Action "muestra/index" 33.11 ms (1)
+mar 25 18:24:42 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/index" 31.63 ms (1)
+mar 25 18:24:42 symfony [info] {sfWebResponse} Send content (29657 o)
+mar 25 18:24:49 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /muestra/new with parameters array (  'module' => 'muestra',  'action' => 'new',)
+mar 25 18:24:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 18:24:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 18:24:49 symfony [info] {muestraActions} Call "muestraActions->executeNew()"
+mar 25 18:24:49 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/newSuccess.php"
+mar 25 18:24:49 symfony [info] {sfPartialView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/_form.php"
+mar 25 18:24:50 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 18:24:50 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 18:24:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 18:24:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 18:24:50 symfony [info] {sfWebDebugLogger} Configuration 10.56 ms (9)
+mar 25 18:24:50 symfony [info] {sfWebDebugLogger} Factories 43.18 ms (1)
+mar 25 18:24:50 symfony [info] {sfWebDebugLogger} Action "muestra/new" 41.46 ms (1)
+mar 25 18:24:50 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/new" 93.25 ms (1)
+mar 25 18:24:50 symfony [info] {sfWebDebugLogger} Partial "muestra/_form" 68.98 ms (1)
+mar 25 18:24:50 symfony [info] {sfWebResponse} Send content (52137 o)
+mar 25 18:24:57 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 18:24:57 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 18:24:57 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 18:24:57 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 18:24:58 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 18:24:58 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 18:24:58 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 18:24:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 18:24:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 18:24:58 symfony [info] {sfWebDebugLogger} Configuration 10.34 ms (9)
+mar 25 18:24:58 symfony [info] {sfWebDebugLogger} Factories 43.96 ms (1)
+mar 25 18:24:58 symfony [info] {sfWebDebugLogger} Action "muestra/index" 28.49 ms (1)
+mar 25 18:24:58 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/index" 18.59 ms (1)
+mar 25 18:24:58 symfony [info] {sfWebResponse} Send content (29732 o)
+mar 25 18:26:40 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /muestra/new with parameters array (  'module' => 'muestra',  'action' => 'new',)
+mar 25 18:26:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 18:26:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 18:26:40 symfony [info] {muestraActions} Call "muestraActions->executeNew()"
+mar 25 18:26:40 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/newSuccess.php"
+mar 25 18:26:40 symfony [info] {sfPartialView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/_form.php"
+mar 25 18:26:40 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 18:26:40 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 18:26:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 18:26:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 18:26:40 symfony [info] {sfWebDebugLogger} Configuration 11.20 ms (9)
+mar 25 18:26:40 symfony [info] {sfWebDebugLogger} Factories 38.16 ms (1)
+mar 25 18:26:40 symfony [info] {sfWebDebugLogger} Action "muestra/new" 35.87 ms (1)
+mar 25 18:26:40 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/new" 93.00 ms (1)
+mar 25 18:26:40 symfony [info] {sfWebDebugLogger} Partial "muestra/_form" 75.91 ms (1)
+mar 25 18:26:40 symfony [info] {sfWebResponse} Send content (52137 o)
+mar 25 18:26:47 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 18:26:47 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 18:26:47 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 18:26:47 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 18:26:47 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 18:26:47 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 18:26:47 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 18:26:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 18:26:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 18:26:47 symfony [info] {sfWebDebugLogger} Configuration 9.00 ms (9)
+mar 25 18:26:47 symfony [info] {sfWebDebugLogger} Factories 41.25 ms (1)
+mar 25 18:26:47 symfony [info] {sfWebDebugLogger} Action "muestra/index" 30.66 ms (1)
+mar 25 18:26:47 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/index" 17.89 ms (1)
+mar 25 18:26:47 symfony [info] {sfWebResponse} Send content (29731 o)
+mar 25 18:36:13 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 18:36:13 symfony [notice] {sfWebDebugLogger}  Notice at C:\sfprojects\labcontrol\apps\frontend\modules\muestra\actions\actions.class.php on line 86 (Use of undefined constant php - assumed 'php')
+mar 25 18:36:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 18:36:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 18:36:13 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 18:36:13 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 18:36:13 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 18:36:13 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 18:36:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 18:36:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 18:36:13 symfony [info] {sfWebDebugLogger} Configuration 14.07 ms (9)
+mar 25 18:36:13 symfony [info] {sfWebDebugLogger} Factories 39.53 ms (1)
+mar 25 18:36:13 symfony [info] {sfWebDebugLogger} Action "muestra/index" 39.58 ms (1)
+mar 25 18:36:13 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/index" 28.13 ms (1)
+mar 25 18:36:13 symfony [info] {sfWebResponse} Send content (29764 o)
+mar 25 18:36:33 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 18:36:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 18:36:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 18:36:33 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 18:36:33 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 18:36:33 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 18:36:33 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 18:36:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 18:36:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 18:36:33 symfony [info] {sfWebDebugLogger} Configuration 9.83 ms (9)
+mar 25 18:36:33 symfony [info] {sfWebDebugLogger} Factories 40.22 ms (1)
+mar 25 18:36:33 symfony [info] {sfWebDebugLogger} Action "muestra/index" 29.46 ms (1)
+mar 25 18:36:33 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/index" 17.54 ms (1)
+mar 25 18:36:33 symfony [info] {sfWebResponse} Send content (29763 o)
+mar 25 18:37:04 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /muestra/new with parameters array (  'module' => 'muestra',  'action' => 'new',)
+mar 25 18:37:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 18:37:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 18:37:04 symfony [info] {muestraActions} Call "muestraActions->executeNew()"
+mar 25 18:37:04 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/newSuccess.php"
+mar 25 18:37:04 symfony [info] {sfPartialView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/_form.php"
+mar 25 18:37:04 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 18:37:04 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 18:37:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 18:37:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 18:37:04 symfony [info] {sfWebDebugLogger} Configuration 16.14 ms (9)
+mar 25 18:37:04 symfony [info] {sfWebDebugLogger} Factories 40.84 ms (1)
+mar 25 18:37:04 symfony [info] {sfWebDebugLogger} Action "muestra/new" 35.04 ms (1)
+mar 25 18:37:04 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/new" 81.94 ms (1)
+mar 25 18:37:04 symfony [info] {sfWebDebugLogger} Partial "muestra/_form" 64.29 ms (1)
+mar 25 18:37:05 symfony [info] {sfWebResponse} Send content (52137 o)
+mar 25 18:37:12 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /muestra/create with parameters array (  'module' => 'muestra',  'action' => 'create',)
+mar 25 18:37:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 18:37:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 18:37:12 symfony [info] {muestraActions} Call "muestraActions->executeCreate()"
+mar 25 18:37:12 symfony [info] {muestraActions} Change template to "CURRENT/new"
+mar 25 18:37:12 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/newSuccess.php"
+mar 25 18:37:12 symfony [info] {sfPartialView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/_form.php"
+mar 25 18:37:12 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 18:37:12 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 18:37:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 18:37:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 18:37:12 symfony [info] {sfWebDebugLogger} Configuration 16.01 ms (9)
+mar 25 18:37:12 symfony [info] {sfWebDebugLogger} Factories 41.50 ms (1)
+mar 25 18:37:12 symfony [info] {sfWebDebugLogger} Action "muestra/create" 121.83 ms (1)
+mar 25 18:37:12 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/create" 57.88 ms (1)
+mar 25 18:37:12 symfony [info] {sfWebDebugLogger} Partial "muestra/_form" 40.05 ms (1)
+mar 25 18:37:12 symfony [info] {sfWebResponse} Send content (54564 o)
+mar 25 18:37:16 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 18:37:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 18:37:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 18:37:16 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 18:37:16 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 18:37:16 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 18:37:16 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 18:37:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 18:37:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 18:37:16 symfony [info] {sfWebDebugLogger} Configuration 16.04 ms (9)
+mar 25 18:37:16 symfony [info] {sfWebDebugLogger} Factories 39.11 ms (1)
+mar 25 18:37:16 symfony [info] {sfWebDebugLogger} Action "muestra/index" 28.45 ms (1)
+mar 25 18:37:16 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/index" 30.91 ms (1)
+mar 25 18:37:17 symfony [info] {sfWebResponse} Send content (29736 o)
+mar 25 18:37:20 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /muestra/new with parameters array (  'module' => 'muestra',  'action' => 'new',)
+mar 25 18:37:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 18:37:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 18:37:20 symfony [info] {muestraActions} Call "muestraActions->executeNew()"
+mar 25 18:37:21 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/newSuccess.php"
+mar 25 18:37:21 symfony [info] {sfPartialView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/_form.php"
+mar 25 18:37:21 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 18:37:21 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 18:37:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 18:37:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 18:37:21 symfony [info] {sfWebDebugLogger} Configuration 16.39 ms (9)
+mar 25 18:37:21 symfony [info] {sfWebDebugLogger} Factories 40.90 ms (1)
+mar 25 18:37:21 symfony [info] {sfWebDebugLogger} Action "muestra/new" 37.10 ms (1)
+mar 25 18:37:21 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/new" 91.41 ms (1)
+mar 25 18:37:21 symfony [info] {sfWebDebugLogger} Partial "muestra/_form" 73.52 ms (1)
+mar 25 18:37:21 symfony [info] {sfWebResponse} Send content (52137 o)
+mar 25 18:37:26 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /muestra/create with parameters array (  'module' => 'muestra',  'action' => 'create',)
+mar 25 18:37:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 18:37:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 18:37:26 symfony [info] {muestraActions} Call "muestraActions->executeCreate()"
+mar 25 18:37:26 symfony [info] {muestraActions} Change template to "CURRENT/new"
+mar 25 18:37:26 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/newSuccess.php"
+mar 25 18:37:26 symfony [info] {sfPartialView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/_form.php"
+mar 25 18:37:26 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 18:37:26 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 18:37:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 18:37:26 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 18:37:26 symfony [info] {sfWebDebugLogger} Configuration 10.81 ms (9)
+mar 25 18:37:26 symfony [info] {sfWebDebugLogger} Factories 38.95 ms (1)
+mar 25 18:37:26 symfony [info] {sfWebDebugLogger} Action "muestra/create" 64.32 ms (1)
+mar 25 18:37:26 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/create" 63.79 ms (1)
+mar 25 18:37:26 symfony [info] {sfWebDebugLogger} Partial "muestra/_form" 45.24 ms (1)
+mar 25 18:37:26 symfony [info] {sfWebResponse} Send content (54563 o)
+mar 25 18:37:45 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 18:37:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 18:37:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 18:37:45 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 18:37:47 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 18:37:47 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 18:37:47 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 18:37:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 18:37:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 18:37:47 symfony [info] {sfWebDebugLogger} Configuration 16.45 ms (9)
+mar 25 18:37:47 symfony [info] {sfWebDebugLogger} Factories 44.08 ms (1)
+mar 25 18:37:47 symfony [info] {sfWebDebugLogger} Action "muestra/index" 1586.06 ms (1)
+mar 25 18:37:47 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/index" 16.71 ms (1)
+mar 25 18:37:47 symfony [info] {sfWebResponse} Send content (29736 o)
+mar 25 18:39:17 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /muestra/new with parameters array (  'module' => 'muestra',  'action' => 'new',)
+mar 25 18:39:17 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 18:39:17 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 18:39:17 symfony [info] {muestraActions} Call "muestraActions->executeNew()"
+mar 25 18:39:17 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/newSuccess.php"
+mar 25 18:39:17 symfony [info] {sfPartialView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/_form.php"
+mar 25 18:39:17 symfony [notice] {sfWebDebugLogger}  Notice at C:\sfprojects\labcontrol\apps\frontend\modules\muestra\templates\_form.php on line 14 (Undefined variable: Muestra)
+mar 25 18:40:56 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /muestra/new with parameters array (  'module' => 'muestra',  'action' => 'new',)
+mar 25 18:40:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 18:40:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 18:40:56 symfony [info] {muestraActions} Call "muestraActions->executeNew()"
+mar 25 18:40:56 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/newSuccess.php"
+mar 25 18:40:56 symfony [info] {sfPartialView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/_form.php"
+mar 25 18:40:56 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 18:40:56 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 18:40:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 18:40:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 18:40:56 symfony [info] {sfWebDebugLogger} Configuration 9.77 ms (9)
+mar 25 18:40:56 symfony [info] {sfWebDebugLogger} Factories 36.68 ms (1)
+mar 25 18:40:56 symfony [info] {sfWebDebugLogger} Action "muestra/new" 35.98 ms (1)
+mar 25 18:40:56 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/new" 86.92 ms (1)
+mar 25 18:40:56 symfony [info] {sfWebDebugLogger} Partial "muestra/_form" 70.60 ms (1)
+mar 25 18:40:56 symfony [info] {sfWebResponse} Send content (52168 o)
+mar 25 18:41:01 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 18:41:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 18:41:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 18:41:02 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 18:41:02 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 18:41:02 symfony [notice] {sfWebDebugLogger}  Notice at C:\sfprojects\labcontrol\apps\frontend\modules\muestra\templates\indexSuccess.php on line 54 (Undefined variable: Muestra)
+mar 25 18:41:56 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 18:41:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 18:41:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 18:41:56 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 18:41:56 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 18:42:31 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 18:42:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 18:42:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 18:42:31 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 18:42:31 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 18:42:32 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 18:42:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 18:42:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 18:42:32 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 18:42:32 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 18:42:33 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 18:42:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 18:42:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 18:42:33 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 18:42:34 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 18:43:13 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 18:43:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 18:43:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 18:43:13 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 18:43:13 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 18:46:06 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 18:46:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 18:46:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 18:46:06 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 18:46:07 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 18:49:41 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 18:49:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 18:49:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 18:49:41 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 18:49:41 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 18:49:43 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 18:49:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 18:49:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 18:49:43 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 18:49:43 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 18:49:44 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 18:49:44 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 18:49:44 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 18:49:44 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 18:49:45 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 18:49:45 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 18:49:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 18:49:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 18:49:45 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 18:49:46 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 18:49:46 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 18:49:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 18:49:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 18:49:46 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 18:49:46 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 18:54:03 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 18:54:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 18:54:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 18:54:03 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 18:54:03 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 18:54:04 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 18:54:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 18:54:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 18:54:04 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 18:54:04 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 18:54:06 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 18:54:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 18:54:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 18:54:06 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 18:54:06 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 18:54:27 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 18:54:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 18:54:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 18:54:27 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 18:54:27 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 18:54:28 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 18:54:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 18:54:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 18:54:28 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 18:54:28 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 18:54:42 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 18:54:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 18:54:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 18:54:42 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 18:54:42 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 18:54:43 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 18:54:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 18:54:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 18:54:43 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 18:54:43 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 18:54:45 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 18:54:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 18:54:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 18:54:45 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 18:54:45 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 18:54:59 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 18:54:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 18:54:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 18:54:59 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 18:54:59 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 18:55:00 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 18:55:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 18:55:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 18:55:00 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 18:55:00 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 18:55:13 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 18:55:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 18:55:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 18:55:13 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 18:55:13 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 18:55:14 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 18:55:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 18:55:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 18:55:14 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 18:55:14 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 18:55:47 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 18:56:45 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 18:56:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 18:56:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 18:56:45 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 18:56:45 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 18:56:49 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 18:56:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 18:56:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 18:56:49 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 18:56:49 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 18:56:50 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 18:56:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 18:56:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 18:56:50 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 18:56:50 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 18:56:51 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 18:56:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 18:56:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 18:56:51 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 18:56:51 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 18:58:42 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 18:58:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 18:58:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 18:58:42 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 18:58:42 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 18:58:42 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 18:58:42 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 18:58:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 18:58:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 18:58:42 symfony [info] {sfWebDebugLogger} Configuration 9.29 ms (9)
+mar 25 18:58:42 symfony [info] {sfWebDebugLogger} Factories 36.66 ms (1)
+mar 25 18:58:42 symfony [info] {sfWebDebugLogger} Action "muestra/index" 32.54 ms (1)
+mar 25 18:58:42 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/index" 11.75 ms (1)
+mar 25 18:58:42 symfony [info] {sfWebResponse} Send content (29829 o)
+mar 25 18:58:51 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 18:58:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 18:58:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 18:58:51 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 18:58:51 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 18:58:51 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 18:58:51 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 18:58:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 18:58:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 18:58:51 symfony [info] {sfWebDebugLogger} Configuration 11.33 ms (9)
+mar 25 18:58:51 symfony [info] {sfWebDebugLogger} Factories 37.60 ms (1)
+mar 25 18:58:51 symfony [info] {sfWebDebugLogger} Action "muestra/index" 28.50 ms (1)
+mar 25 18:58:51 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/index" 17.10 ms (1)
+mar 25 18:58:51 symfony [info] {sfWebResponse} Send content (29831 o)
+mar 25 18:58:52 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 18:58:52 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 18:58:52 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 18:58:52 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 18:58:52 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 18:58:52 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 18:58:52 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 18:58:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 18:58:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 18:58:52 symfony [info] {sfWebDebugLogger} Configuration 9.82 ms (9)
+mar 25 18:58:52 symfony [info] {sfWebDebugLogger} Factories 39.88 ms (1)
+mar 25 18:58:52 symfony [info] {sfWebDebugLogger} Action "muestra/index" 24.21 ms (1)
+mar 25 18:58:52 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/index" 16.37 ms (1)
+mar 25 18:58:52 symfony [info] {sfWebResponse} Send content (29830 o)
+mar 25 18:59:06 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 18:59:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 18:59:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 18:59:06 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 18:59:06 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 18:59:06 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 18:59:06 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 18:59:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 18:59:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 18:59:06 symfony [info] {sfWebDebugLogger} Configuration 9.29 ms (9)
+mar 25 18:59:06 symfony [info] {sfWebDebugLogger} Factories 39.29 ms (1)
+mar 25 18:59:06 symfony [info] {sfWebDebugLogger} Action "muestra/index" 31.45 ms (1)
+mar 25 18:59:06 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/index" 18.70 ms (1)
+mar 25 18:59:06 symfony [info] {sfWebResponse} Send content (29830 o)
+mar 25 19:02:03 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 19:02:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 19:02:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 19:02:03 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 19:02:03 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 19:02:03 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 19:02:03 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 19:02:03 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 19:02:03 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 19:02:03 symfony [info] {sfWebDebugLogger} Configuration 9.88 ms (9)
+mar 25 19:02:03 symfony [info] {sfWebDebugLogger} Factories 38.57 ms (1)
+mar 25 19:02:03 symfony [info] {sfWebDebugLogger} Action "muestra/index" 33.67 ms (1)
+mar 25 19:02:03 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/index" 18.00 ms (1)
+mar 25 19:02:03 symfony [info] {sfWebResponse} Send content (29830 o)
+mar 25 19:02:04 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 19:02:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 19:02:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 19:02:05 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 19:02:05 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 19:02:05 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 19:02:05 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 19:02:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 19:02:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 19:02:05 symfony [info] {sfWebDebugLogger} Configuration 9.02 ms (9)
+mar 25 19:02:05 symfony [info] {sfWebDebugLogger} Factories 36.93 ms (1)
+mar 25 19:02:05 symfony [info] {sfWebDebugLogger} Action "muestra/index" 29.04 ms (1)
+mar 25 19:02:05 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/index" 16.18 ms (1)
+mar 25 19:02:05 symfony [info] {sfWebResponse} Send content (29830 o)
+mar 25 19:04:22 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 19:04:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 19:04:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 19:04:22 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 19:04:22 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 19:04:22 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 19:04:22 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 19:04:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 19:04:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 19:04:22 symfony [info] {sfWebDebugLogger} Configuration 10.97 ms (9)
+mar 25 19:04:22 symfony [info] {sfWebDebugLogger} Factories 38.71 ms (1)
+mar 25 19:04:22 symfony [info] {sfWebDebugLogger} Action "muestra/index" 30.40 ms (1)
+mar 25 19:04:22 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/index" 17.09 ms (1)
+mar 25 19:04:22 symfony [info] {sfWebResponse} Send content (29831 o)
+mar 25 19:04:46 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 19:04:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 19:04:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 19:04:46 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 19:04:46 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 19:04:46 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 19:04:46 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 19:04:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 19:04:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 19:04:46 symfony [info] {sfWebDebugLogger} Configuration 10.06 ms (9)
+mar 25 19:04:46 symfony [info] {sfWebDebugLogger} Factories 37.97 ms (1)
+mar 25 19:04:46 symfony [info] {sfWebDebugLogger} Action "muestra/index" 29.59 ms (1)
+mar 25 19:04:46 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/index" 15.30 ms (1)
+mar 25 19:04:46 symfony [info] {sfWebResponse} Send content (29831 o)
+mar 25 19:04:47 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 19:04:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 19:04:48 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 19:04:48 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 19:04:48 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 19:04:48 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 19:04:48 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 19:04:48 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 19:04:48 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 19:04:48 symfony [info] {sfWebDebugLogger} Configuration 9.66 ms (9)
+mar 25 19:04:48 symfony [info] {sfWebDebugLogger} Factories 38.57 ms (1)
+mar 25 19:04:48 symfony [info] {sfWebDebugLogger} Action "muestra/index" 30.32 ms (1)
+mar 25 19:04:48 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/index" 14.55 ms (1)
+mar 25 19:04:48 symfony [info] {sfWebResponse} Send content (29830 o)
+mar 25 19:05:53 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 19:05:53 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 19:05:53 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 19:05:53 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 19:05:54 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 19:05:54 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 19:05:54 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 19:05:54 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 19:05:54 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 19:05:54 symfony [info] {sfWebDebugLogger} Configuration 10.22 ms (9)
+mar 25 19:05:54 symfony [info] {sfWebDebugLogger} Factories 37.98 ms (1)
+mar 25 19:05:54 symfony [info] {sfWebDebugLogger} Action "muestra/index" 31.55 ms (1)
+mar 25 19:05:54 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/index" 17.57 ms (1)
+mar 25 19:05:54 symfony [info] {sfWebResponse} Send content (29831 o)
+mar 25 19:05:55 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 19:05:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 19:05:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 19:05:55 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 19:05:55 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 19:05:55 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 19:05:55 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 19:05:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 19:05:55 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 19:05:55 symfony [info] {sfWebDebugLogger} Configuration 9.52 ms (9)
+mar 25 19:05:55 symfony [info] {sfWebDebugLogger} Factories 39.70 ms (1)
+mar 25 19:05:55 symfony [info] {sfWebDebugLogger} Action "muestra/index" 29.00 ms (1)
+mar 25 19:05:55 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/index" 16.53 ms (1)
+mar 25 19:05:55 symfony [info] {sfWebResponse} Send content (29830 o)
+mar 25 19:06:18 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 19:06:18 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 19:06:18 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 19:06:18 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 19:06:18 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 19:06:18 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 19:06:18 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 19:06:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 19:06:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 19:06:18 symfony [info] {sfWebDebugLogger} Configuration 9.49 ms (9)
+mar 25 19:06:18 symfony [info] {sfWebDebugLogger} Factories 36.93 ms (1)
+mar 25 19:06:18 symfony [info] {sfWebDebugLogger} Action "muestra/index" 28.67 ms (1)
+mar 25 19:06:18 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/index" 14.92 ms (1)
+mar 25 19:06:18 symfony [info] {sfWebResponse} Send content (29830 o)
+mar 25 19:07:02 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 19:07:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 19:07:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 19:07:02 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 19:07:02 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 19:07:02 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 19:07:02 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 19:07:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 19:07:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 19:07:02 symfony [info] {sfWebDebugLogger} Configuration 8.37 ms (9)
+mar 25 19:07:02 symfony [info] {sfWebDebugLogger} Factories 37.35 ms (1)
+mar 25 19:07:02 symfony [info] {sfWebDebugLogger} Action "muestra/index" 30.45 ms (1)
+mar 25 19:07:02 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/index" 14.90 ms (1)
+mar 25 19:07:02 symfony [info] {sfWebResponse} Send content (29830 o)
+mar 25 19:11:18 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 19:11:18 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 19:11:18 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 19:11:18 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 19:11:19 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 19:11:19 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 19:11:19 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 19:11:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 19:11:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 19:11:19 symfony [info] {sfWebDebugLogger} Configuration 10.27 ms (9)
+mar 25 19:11:19 symfony [info] {sfWebDebugLogger} Factories 40.47 ms (1)
+mar 25 19:11:19 symfony [info] {sfWebDebugLogger} Action "muestra/index" 30.27 ms (1)
+mar 25 19:11:19 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/index" 18.01 ms (1)
+mar 25 19:11:19 symfony [info] {sfWebResponse} Send content (29831 o)
+mar 25 19:11:21 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 19:11:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 19:11:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 19:11:21 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 19:11:21 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 19:11:21 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 19:11:21 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 19:11:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 19:11:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 19:11:21 symfony [info] {sfWebDebugLogger} Configuration 8.04 ms (9)
+mar 25 19:11:21 symfony [info] {sfWebDebugLogger} Factories 35.33 ms (1)
+mar 25 19:11:21 symfony [info] {sfWebDebugLogger} Action "muestra/index" 30.23 ms (1)
+mar 25 19:11:21 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/index" 18.23 ms (1)
+mar 25 19:11:21 symfony [info] {sfWebResponse} Send content (29830 o)
+mar 25 19:11:48 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 19:11:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 19:11:48 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 19:11:48 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 19:11:48 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 19:11:48 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 19:11:48 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 19:11:48 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 19:11:48 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 19:11:48 symfony [info] {sfWebDebugLogger} Configuration 9.77 ms (9)
+mar 25 19:11:48 symfony [info] {sfWebDebugLogger} Factories 37.87 ms (1)
+mar 25 19:11:48 symfony [info] {sfWebDebugLogger} Action "muestra/index" 20.92 ms (1)
+mar 25 19:11:48 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/index" 16.57 ms (1)
+mar 25 19:11:48 symfony [info] {sfWebResponse} Send content (29830 o)
+mar 25 19:11:49 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 19:11:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 19:11:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 19:11:49 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 19:11:49 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 19:11:49 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 19:11:49 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 19:11:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 19:11:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 19:11:49 symfony [info] {sfWebDebugLogger} Configuration 9.56 ms (9)
+mar 25 19:11:49 symfony [info] {sfWebDebugLogger} Factories 37.64 ms (1)
+mar 25 19:11:49 symfony [info] {sfWebDebugLogger} Action "muestra/index" 28.89 ms (1)
+mar 25 19:11:49 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/index" 14.37 ms (1)
+mar 25 19:11:49 symfony [info] {sfWebResponse} Send content (29830 o)
+mar 25 19:13:13 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 19:13:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 19:13:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 19:13:13 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 19:13:13 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 19:13:13 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 19:13:13 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 19:13:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 19:13:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 19:13:13 symfony [info] {sfWebDebugLogger} Configuration 9.99 ms (9)
+mar 25 19:13:13 symfony [info] {sfWebDebugLogger} Factories 49.75 ms (1)
+mar 25 19:13:13 symfony [info] {sfWebDebugLogger} Action "muestra/index" 32.70 ms (1)
+mar 25 19:13:13 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/index" 41.24 ms (1)
+mar 25 19:13:13 symfony [info] {sfWebResponse} Send content (29830 o)
+mar 25 19:13:15 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 19:13:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 19:13:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 19:13:15 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 19:13:15 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 19:13:15 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 19:13:15 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 19:13:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 19:13:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 19:13:15 symfony [info] {sfWebDebugLogger} Configuration 8.17 ms (9)
+mar 25 19:13:15 symfony [info] {sfWebDebugLogger} Factories 39.27 ms (1)
+mar 25 19:13:15 symfony [info] {sfWebDebugLogger} Action "muestra/index" 30.01 ms (1)
+mar 25 19:13:15 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/index" 24.03 ms (1)
+mar 25 19:13:15 symfony [info] {sfWebResponse} Send content (29830 o)
+mar 25 19:13:35 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 19:13:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 19:13:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 19:13:35 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 19:13:35 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 19:13:35 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 19:13:35 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 19:13:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 19:13:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 19:13:35 symfony [info] {sfWebDebugLogger} Configuration 9.59 ms (9)
+mar 25 19:13:35 symfony [info] {sfWebDebugLogger} Factories 44.06 ms (1)
+mar 25 19:13:35 symfony [info] {sfWebDebugLogger} Action "muestra/index" 32.28 ms (1)
+mar 25 19:13:35 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/index" 17.11 ms (1)
+mar 25 19:13:35 symfony [info] {sfWebResponse} Send content (29830 o)
+mar 25 19:13:37 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 19:13:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 19:13:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 19:13:37 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 19:13:37 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 19:13:37 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 19:13:37 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 19:13:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 19:13:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 19:13:37 symfony [info] {sfWebDebugLogger} Configuration 8.48 ms (9)
+mar 25 19:13:37 symfony [info] {sfWebDebugLogger} Factories 37.53 ms (1)
+mar 25 19:13:37 symfony [info] {sfWebDebugLogger} Action "muestra/index" 32.79 ms (1)
+mar 25 19:13:37 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/index" 16.16 ms (1)
+mar 25 19:13:37 symfony [info] {sfWebResponse} Send content (29830 o)
+mar 25 19:14:52 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 19:14:52 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 19:14:52 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 19:14:52 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 19:14:52 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 19:14:52 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 19:14:52 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 19:14:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 19:14:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 19:14:52 symfony [info] {sfWebDebugLogger} Configuration 9.44 ms (9)
+mar 25 19:14:52 symfony [info] {sfWebDebugLogger} Factories 35.66 ms (1)
+mar 25 19:14:52 symfony [info] {sfWebDebugLogger} Action "muestra/index" 21.77 ms (1)
+mar 25 19:14:52 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/index" 16.29 ms (1)
+mar 25 19:14:52 symfony [info] {sfWebResponse} Send content (29830 o)
+mar 25 19:15:09 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 19:15:10 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 19:15:10 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 19:15:10 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 19:15:10 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 19:15:10 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 19:15:10 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 19:15:10 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 19:15:10 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 19:15:10 symfony [info] {sfWebDebugLogger} Configuration 8.13 ms (9)
+mar 25 19:15:10 symfony [info] {sfWebDebugLogger} Factories 40.61 ms (1)
+mar 25 19:15:10 symfony [info] {sfWebDebugLogger} Action "muestra/index" 33.25 ms (1)
+mar 25 19:15:10 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/index" 15.67 ms (1)
+mar 25 19:15:10 symfony [info] {sfWebResponse} Send content (29830 o)
+mar 25 19:15:11 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 19:15:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 19:15:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 19:15:11 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 19:15:11 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 19:15:11 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 19:15:11 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 19:15:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 19:15:11 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 19:15:11 symfony [info] {sfWebDebugLogger} Configuration 8.11 ms (9)
+mar 25 19:15:11 symfony [info] {sfWebDebugLogger} Factories 39.19 ms (1)
+mar 25 19:15:11 symfony [info] {sfWebDebugLogger} Action "muestra/index" 29.61 ms (1)
+mar 25 19:15:11 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/index" 15.44 ms (1)
+mar 25 19:15:11 symfony [info] {sfWebResponse} Send content (29830 o)
+mar 25 19:15:21 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 19:15:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 19:15:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 19:15:21 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 19:15:21 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 19:15:21 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 19:15:21 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 19:15:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 19:15:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 19:15:21 symfony [info] {sfWebDebugLogger} Configuration 11.00 ms (9)
+mar 25 19:15:21 symfony [info] {sfWebDebugLogger} Factories 38.26 ms (1)
+mar 25 19:15:21 symfony [info] {sfWebDebugLogger} Action "muestra/index" 33.01 ms (1)
+mar 25 19:15:21 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/index" 17.91 ms (1)
+mar 25 19:15:21 symfony [info] {sfWebResponse} Send content (29831 o)
+mar 25 19:15:47 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 19:15:47 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 19:15:47 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 19:15:47 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 19:15:47 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 19:15:47 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 19:15:47 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 19:15:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 19:15:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 19:15:47 symfony [info] {sfWebDebugLogger} Configuration 9.06 ms (9)
+mar 25 19:15:47 symfony [info] {sfWebDebugLogger} Factories 34.96 ms (1)
+mar 25 19:15:47 symfony [info] {sfWebDebugLogger} Action "muestra/index" 31.61 ms (1)
+mar 25 19:15:47 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/index" 14.47 ms (1)
+mar 25 19:15:47 symfony [info] {sfWebResponse} Send content (29830 o)
+mar 25 19:16:06 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 19:16:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 19:16:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 19:16:06 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 19:16:06 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 19:17:08 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 19:17:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 19:17:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 19:17:08 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 19:17:08 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 19:17:08 symfony [err] {sfWebDebugLogger}  Error at C:\sfprojects\labcontrol\apps\frontend\modules\muestra\templates\indexSuccess.php on line 57 (Object of class sfOutputEscaperArrayDecorator could not be converted to string)
+mar 25 19:17:45 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 19:18:23 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 19:18:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 19:18:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 19:18:23 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 19:18:23 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 19:18:23 symfony [err] {sfWebDebugLogger}  Error at C:\sfprojects\labcontrol\apps\frontend\modules\muestra\templates\indexSuccess.php on line 57 (Object of class sfOutputEscaperArrayDecorator could not be converted to string)
+mar 25 19:21:03 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 19:21:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 19:21:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 19:21:03 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 19:21:03 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 19:21:03 symfony [err] {sfWebDebugLogger}  Error at C:\sfprojects\labcontrol\apps\frontend\modules\muestra\templates\indexSuccess.php on line 57 (Object of class sfOutputEscaperArrayDecorator could not be converted to string)
+mar 25 19:21:05 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 19:21:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 19:21:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 19:21:05 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 19:21:05 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 19:21:05 symfony [err] {sfWebDebugLogger}  Error at C:\sfprojects\labcontrol\apps\frontend\modules\muestra\templates\indexSuccess.php on line 57 (Object of class sfOutputEscaperArrayDecorator could not be converted to string)
+mar 25 19:21:06 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 19:21:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 19:21:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 19:21:06 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 19:21:06 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 19:21:06 symfony [err] {sfWebDebugLogger}  Error at C:\sfprojects\labcontrol\apps\frontend\modules\muestra\templates\indexSuccess.php on line 57 (Object of class sfOutputEscaperArrayDecorator could not be converted to string)
+mar 25 19:21:12 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 19:21:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 19:21:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 19:21:12 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 19:21:12 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 19:21:12 symfony [err] {sfWebDebugLogger}  Error at C:\sfprojects\labcontrol\apps\frontend\modules\muestra\templates\indexSuccess.php on line 57 (Object of class sfOutputEscaperArrayDecorator could not be converted to string)
+mar 25 19:21:30 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 19:21:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 19:21:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 19:21:30 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 19:21:30 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 19:21:44 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 19:21:44 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 19:21:44 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 19:21:44 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 19:21:44 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 19:22:56 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 19:22:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 19:22:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 19:22:56 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 19:22:57 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 19:22:57 symfony [err] {sfWebDebugLogger}  Error at C:\sfprojects\labcontrol\apps\frontend\modules\muestra\templates\indexSuccess.php on line 57 (Object of class sfOutputEscaperArrayDecorator could not be converted to string)
+mar 25 19:22:58 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 19:22:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 19:22:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 19:22:58 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 19:22:58 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 19:22:58 symfony [err] {sfWebDebugLogger}  Error at C:\sfprojects\labcontrol\apps\frontend\modules\muestra\templates\indexSuccess.php on line 57 (Object of class sfOutputEscaperArrayDecorator could not be converted to string)
+mar 25 19:24:02 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 19:24:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 19:24:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 19:24:02 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 19:24:02 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 19:24:02 symfony [err] {sfWebDebugLogger}  Error at C:\sfprojects\labcontrol\apps\frontend\modules\muestra\templates\indexSuccess.php on line 57 (Object of class sfOutputEscaperArrayDecorator could not be converted to string)
+mar 25 19:24:03 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 19:24:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 19:24:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 19:24:03 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 19:24:03 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 19:24:03 symfony [err] {sfWebDebugLogger}  Error at C:\sfprojects\labcontrol\apps\frontend\modules\muestra\templates\indexSuccess.php on line 57 (Object of class sfOutputEscaperArrayDecorator could not be converted to string)
+mar 25 19:25:59 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 19:25:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 19:25:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 19:25:59 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 19:25:59 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 19:26:20 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 19:26:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 19:26:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 19:26:20 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 19:26:20 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 19:26:29 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 19:26:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 19:26:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 19:26:29 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 19:26:29 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 19:26:29 symfony [err] {sfException} Call to undefined method BaseMuestra::getNumeroMuestras
+mar 25 19:26:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+mar 25 19:26:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 19:26:29 symfony [info] {sfWebDebugLogger} Configuration 8.85 ms (9)
+mar 25 19:26:29 symfony [info] {sfWebDebugLogger} Factories 33.26 ms (1)
+mar 25 19:26:29 symfony [info] {sfWebDebugLogger} Action "muestra/index" 19.54 ms (1)
+mar 25 19:26:29 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/index" 56.84 ms (1)
+mar 25 19:26:54 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 19:26:54 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 19:26:54 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 19:26:54 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 19:26:54 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 19:27:39 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 19:27:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 19:27:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 19:27:39 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 19:27:39 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 19:27:39 symfony [warning] {sfWebDebugLogger}  Warning at C:\sfprojects\labcontrol\lib\vendor\symfony\lib\action\sfComponent.class.php on line 36 (Missing argument 1 for sfComponent::__construct(), called in C:\sfprojects\labcontrol\apps\frontend\modules\muestra\templates\indexSuccess.php on line 58 and defined)
+mar 25 19:27:39 symfony [warning] {sfWebDebugLogger}  Warning at C:\sfprojects\labcontrol\lib\vendor\symfony\lib\action\sfComponent.class.php on line 36 (Missing argument 2 for sfComponent::__construct(), called in C:\sfprojects\labcontrol\apps\frontend\modules\muestra\templates\indexSuccess.php on line 58 and defined)
+mar 25 19:27:39 symfony [warning] {sfWebDebugLogger}  Warning at C:\sfprojects\labcontrol\lib\vendor\symfony\lib\action\sfComponent.class.php on line 36 (Missing argument 3 for sfComponent::__construct(), called in C:\sfprojects\labcontrol\apps\frontend\modules\muestra\templates\indexSuccess.php on line 58 and defined)
+mar 25 19:27:39 symfony [notice] {sfWebDebugLogger}  Notice at C:\sfprojects\labcontrol\lib\vendor\symfony\lib\action\sfComponent.class.php on line 38 (Undefined variable: context)
+mar 25 19:27:39 symfony [notice] {sfWebDebugLogger}  Notice at C:\sfprojects\labcontrol\lib\vendor\symfony\lib\action\sfComponent.class.php on line 38 (Undefined variable: moduleName)
+mar 25 19:27:39 symfony [notice] {sfWebDebugLogger}  Notice at C:\sfprojects\labcontrol\lib\vendor\symfony\lib\action\sfComponent.class.php on line 38 (Undefined variable: actionName)
+mar 25 19:32:49 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 19:32:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 19:32:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 19:32:49 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 19:32:49 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 19:32:49 symfony [err] {sfWebDebugLogger}  Error at C:\sfprojects\labcontrol\apps\frontend\modules\muestra\templates\indexSuccess.php on line 57 (Object of class sfOutputEscaperArrayDecorator could not be converted to string)
+mar 25 19:42:42 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 19:42:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 19:42:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 19:42:42 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 19:42:42 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 19:42:42 symfony [err] {sfWebDebugLogger}  Error at C:\sfprojects\labcontrol\apps\frontend\modules\muestra\templates\indexSuccess.php on line 57 (Object of class sfOutputEscaperArrayDecorator could not be converted to string)
+mar 25 19:44:30 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 19:44:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 19:44:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 19:44:30 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 19:44:30 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 19:44:30 symfony [err] {sfWebDebugLogger}  Error at C:\sfprojects\labcontrol\apps\frontend\modules\muestra\templates\indexSuccess.php on line 57 (Object of class sfOutputEscaperArrayDecorator could not be converted to string)
+mar 25 19:44:32 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 19:44:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 19:44:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 19:44:32 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 19:44:32 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 19:44:32 symfony [err] {sfWebDebugLogger}  Error at C:\sfprojects\labcontrol\apps\frontend\modules\muestra\templates\indexSuccess.php on line 57 (Object of class sfOutputEscaperArrayDecorator could not be converted to string)
+mar 25 19:46:09 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /muestra/new with parameters array (  'module' => 'muestra',  'action' => 'new',)
+mar 25 19:46:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 19:46:09 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 19:46:09 symfony [info] {muestraActions} Call "muestraActions->executeNew()"
+mar 25 19:46:09 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/newSuccess.php"
+mar 25 19:46:09 symfony [info] {sfPartialView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/_form.php"
+mar 25 19:46:09 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 19:46:09 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 19:46:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 19:46:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 19:46:09 symfony [info] {sfWebDebugLogger} Configuration 9.57 ms (9)
+mar 25 19:46:09 symfony [info] {sfWebDebugLogger} Factories 35.88 ms (1)
+mar 25 19:46:09 symfony [info] {sfWebDebugLogger} Action "muestra/new" 32.88 ms (1)
+mar 25 19:46:09 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/new" 78.90 ms (1)
+mar 25 19:46:09 symfony [info] {sfWebDebugLogger} Partial "muestra/_form" 62.29 ms (1)
+mar 25 19:46:09 symfony [info] {sfWebResponse} Send content (52136 o)
+mar 25 19:48:33 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /muestra/new with parameters array (  'module' => 'muestra',  'action' => 'new',)
+mar 25 19:48:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 19:48:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 19:48:33 symfony [info] {muestraActions} Call "muestraActions->executeNew()"
+mar 25 19:48:33 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/newSuccess.php"
+mar 25 19:48:33 symfony [info] {sfPartialView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/_form.php"
+mar 25 19:48:33 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 19:48:33 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 19:48:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 19:48:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 19:48:33 symfony [info] {sfWebDebugLogger} Configuration 9.52 ms (9)
+mar 25 19:48:33 symfony [info] {sfWebDebugLogger} Factories 35.28 ms (1)
+mar 25 19:48:33 symfony [info] {sfWebDebugLogger} Action "muestra/new" 36.16 ms (1)
+mar 25 19:48:33 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/new" 86.20 ms (1)
+mar 25 19:48:33 symfony [info] {sfWebDebugLogger} Partial "muestra/_form" 70.02 ms (1)
+mar 25 19:48:33 symfony [info] {sfWebResponse} Send content (52168 o)
+mar 25 19:48:36 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 19:48:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 19:48:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 19:48:36 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 19:48:36 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 19:48:36 symfony [err] {sfWebDebugLogger}  Error at C:\sfprojects\labcontrol\apps\frontend\modules\muestra\templates\indexSuccess.php on line 57 (Object of class sfOutputEscaperArrayDecorator could not be converted to string)
+mar 25 20:54:55 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 20:54:55 symfony [info] {myUser} Automatic user logout due to timeout
+mar 25 20:54:55 symfony [info] {myUser} User is not authenticated
+mar 25 20:54:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 20:54:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 20:54:55 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 20:54:55 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 20:54:55 symfony [err] {sfWebDebugLogger}  Error at C:\sfprojects\labcontrol\apps\frontend\modules\muestra\templates\indexSuccess.php on line 57 (Object of class sfOutputEscaperArrayDecorator could not be converted to string)
+mar 25 20:54:57 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 20:54:57 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 20:54:57 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 20:54:57 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 20:54:57 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 20:54:57 symfony [err] {sfWebDebugLogger}  Error at C:\sfprojects\labcontrol\apps\frontend\modules\muestra\templates\indexSuccess.php on line 57 (Object of class sfOutputEscaperArrayDecorator could not be converted to string)
+mar 25 20:54:58 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 20:54:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 20:54:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 20:54:58 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 20:54:58 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 20:54:58 symfony [err] {sfWebDebugLogger}  Error at C:\sfprojects\labcontrol\apps\frontend\modules\muestra\templates\indexSuccess.php on line 57 (Object of class sfOutputEscaperArrayDecorator could not be converted to string)
+mar 25 20:57:31 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 20:57:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 20:57:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 20:57:31 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 20:57:31 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 20:57:31 symfony [err] {sfWebDebugLogger}  Error at C:\sfprojects\labcontrol\apps\frontend\modules\muestra\templates\indexSuccess.php on line 57 (Object of class sfOutputEscaperArrayDecorator could not be converted to string)
+mar 25 20:57:32 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 20:57:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 20:57:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 20:57:32 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 20:57:32 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 20:57:32 symfony [err] {sfWebDebugLogger}  Error at C:\sfprojects\labcontrol\apps\frontend\modules\muestra\templates\indexSuccess.php on line 57 (Object of class sfOutputEscaperArrayDecorator could not be converted to string)
+mar 25 20:57:33 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 20:57:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 20:57:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 20:57:33 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 20:57:33 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 20:57:34 symfony [err] {sfWebDebugLogger}  Error at C:\sfprojects\labcontrol\apps\frontend\modules\muestra\templates\indexSuccess.php on line 57 (Object of class sfOutputEscaperArrayDecorator could not be converted to string)
+mar 25 21:02:02 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 21:02:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:02:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:02:02 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 21:02:02 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 21:02:03 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 21:02:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:02:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:02:03 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 21:02:03 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 21:02:04 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 21:02:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:02:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:02:04 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 21:02:04 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 21:04:59 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 21:04:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:04:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:04:59 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 21:04:59 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 21:05:00 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 21:05:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:05:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:05:00 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 21:05:00 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 21:05:02 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 21:05:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:05:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:05:02 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 21:05:02 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 21:08:19 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 21:08:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:08:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:08:19 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 21:08:19 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 21:08:20 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 21:08:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:08:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:08:20 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 21:08:20 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 21:08:40 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 21:08:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:08:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:08:40 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 21:08:40 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 21:08:42 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 21:08:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:08:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:08:42 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 21:08:42 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 21:08:43 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 21:08:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:08:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:08:43 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 21:08:43 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 21:09:20 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 21:09:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:09:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:09:20 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 21:09:20 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 21:09:21 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 21:09:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:09:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:09:21 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 21:09:21 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 21:09:31 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 21:09:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:09:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:09:32 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 21:09:32 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 21:09:32 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 21:09:32 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 21:09:32 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 21:09:32 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 21:09:32 symfony [info] {sfWebDebugLogger} Configuration 5.10 ms (9)
+mar 25 21:09:32 symfony [info] {sfWebDebugLogger} Factories 31.22 ms (1)
+mar 25 21:09:32 symfony [info] {sfWebDebugLogger} Action "muestra/index" 20.65 ms (1)
+mar 25 21:09:32 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/index" 11.05 ms (1)
+mar 25 21:09:32 symfony [info] {sfWebResponse} Send content (29808 o)
+mar 25 21:11:29 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /muestra/new with parameters array (  'module' => 'muestra',  'action' => 'new',)
+mar 25 21:11:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:11:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:11:29 symfony [info] {muestraActions} Call "muestraActions->executeNew()"
+mar 25 21:11:29 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/newSuccess.php"
+mar 25 21:11:29 symfony [info] {sfPartialView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/_form.php"
+mar 25 21:11:29 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 21:11:29 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 21:11:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 21:11:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 21:11:29 symfony [info] {sfWebDebugLogger} Configuration 9.43 ms (9)
+mar 25 21:11:29 symfony [info] {sfWebDebugLogger} Factories 36.07 ms (1)
+mar 25 21:11:29 symfony [info] {sfWebDebugLogger} Action "muestra/new" 31.73 ms (1)
+mar 25 21:11:29 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/new" 77.61 ms (1)
+mar 25 21:11:29 symfony [info] {sfWebDebugLogger} Partial "muestra/_form" 62.32 ms (1)
+mar 25 21:11:29 symfony [info] {sfWebResponse} Send content (52484 o)
+mar 25 21:11:40 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /muestra/create with parameters array (  'module' => 'muestra',  'action' => 'create',)
+mar 25 21:11:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:11:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:11:40 symfony [info] {muestraActions} Call "muestraActions->executeCreate()"
+mar 25 21:11:40 symfony [info] {muestraActions} Change template to "CURRENT/new"
+mar 25 21:11:40 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/newSuccess.php"
+mar 25 21:11:40 symfony [info] {sfPartialView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/_form.php"
+mar 25 21:11:40 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 21:11:40 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 21:11:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 21:11:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 21:11:40 symfony [info] {sfWebDebugLogger} Configuration 11.13 ms (9)
+mar 25 21:11:40 symfony [info] {sfWebDebugLogger} Factories 35.29 ms (1)
+mar 25 21:11:40 symfony [info] {sfWebDebugLogger} Action "muestra/create" 78.07 ms (1)
+mar 25 21:11:40 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/create" 46.82 ms (1)
+mar 25 21:11:40 symfony [info] {sfWebDebugLogger} Partial "muestra/_form" 30.16 ms (1)
+mar 25 21:11:40 symfony [info] {sfWebResponse} Send content (54757 o)
+mar 25 21:11:45 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 21:11:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:11:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:11:45 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 21:11:45 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 21:11:45 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 21:11:45 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 21:11:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 21:11:45 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 21:11:45 symfony [info] {sfWebDebugLogger} Configuration 10.10 ms (9)
+mar 25 21:11:45 symfony [info] {sfWebDebugLogger} Factories 33.95 ms (1)
+mar 25 21:11:45 symfony [info] {sfWebDebugLogger} Action "muestra/index" 30.27 ms (1)
+mar 25 21:11:45 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/index" 13.42 ms (1)
+mar 25 21:11:45 symfony [info] {sfWebResponse} Send content (30050 o)
+mar 25 21:12:18 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /muestra/new with parameters array (  'module' => 'muestra',  'action' => 'new',)
+mar 25 21:12:18 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:12:18 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:12:18 symfony [info] {muestraActions} Call "muestraActions->executeNew()"
+mar 25 21:12:18 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/newSuccess.php"
+mar 25 21:12:18 symfony [info] {sfPartialView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/_form.php"
+mar 25 21:12:18 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 21:12:18 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 21:12:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 21:12:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 21:12:18 symfony [info] {sfWebDebugLogger} Configuration 8.52 ms (9)
+mar 25 21:12:18 symfony [info] {sfWebDebugLogger} Factories 34.33 ms (1)
+mar 25 21:12:18 symfony [info] {sfWebDebugLogger} Action "muestra/new" 35.72 ms (1)
+mar 25 21:12:18 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/new" 80.01 ms (1)
+mar 25 21:12:18 symfony [info] {sfWebDebugLogger} Partial "muestra/_form" 65.61 ms (1)
+mar 25 21:12:18 symfony [info] {sfWebResponse} Send content (52535 o)
+mar 25 21:12:31 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /muestra/create with parameters array (  'module' => 'muestra',  'action' => 'create',)
+mar 25 21:12:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:12:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:12:31 symfony [info] {muestraActions} Call "muestraActions->executeCreate()"
+mar 25 21:12:31 symfony [info] {sfFrontWebController} Redirect to "http://localhost:8080/frontend_dev.php/muestra/edit/id/1"
+mar 25 21:12:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+mar 25 21:12:31 symfony [info] {sfWebResponse} Send header "Location: http://localhost:8080/frontend_dev.php/muestra/edit/id/1"
+mar 25 21:12:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 21:12:31 symfony [info] {sfWebDebugLogger} Configuration 7.24 ms (8)
+mar 25 21:12:31 symfony [info] {sfWebDebugLogger} Factories 33.40 ms (1)
+mar 25 21:12:31 symfony [info] {sfWebDebugLogger} Action "muestra/create" 80.33 ms (1)
+mar 25 21:12:31 symfony [info] {sfWebResponse} Send content (127 o)
+mar 25 21:12:31 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /muestra/edit/id/1 with parameters array (  'module' => 'muestra',  'action' => 'edit',  'id' => '1',)
+mar 25 21:12:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:12:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:12:31 symfony [info] {muestraActions} Call "muestraActions->executeEdit()"
+mar 25 21:12:31 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/editSuccess.php"
+mar 25 21:12:31 symfony [info] {sfPartialView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/_form.php"
+mar 25 21:12:31 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 21:12:31 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 21:12:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 21:12:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 21:12:31 symfony [info] {sfWebDebugLogger} Configuration 7.87 ms (9)
+mar 25 21:12:31 symfony [info] {sfWebDebugLogger} Factories 30.29 ms (1)
+mar 25 21:12:31 symfony [info] {sfWebDebugLogger} Action "muestra/edit" 48.98 ms (1)
+mar 25 21:12:31 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/edit" 70.53 ms (1)
+mar 25 21:12:31 symfony [info] {sfWebDebugLogger} Partial "muestra/_form" 56.41 ms (1)
+mar 25 21:12:31 symfony [info] {sfWebResponse} Send content (53538 o)
+mar 25 21:12:36 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 21:12:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:12:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:12:36 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 21:12:36 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 21:12:36 symfony [err] {sfException} Call to undefined method BaseMuestra::executeShowNumeroMuestras
+mar 25 21:12:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+mar 25 21:12:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 21:12:36 symfony [info] {sfWebDebugLogger} Configuration 8.09 ms (9)
+mar 25 21:12:36 symfony [info] {sfWebDebugLogger} Factories 31.67 ms (1)
+mar 25 21:12:36 symfony [info] {sfWebDebugLogger} Action "muestra/index" 24.51 ms (1)
+mar 25 21:12:36 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/index" 50.44 ms (1)
+mar 25 21:13:00 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 21:13:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:13:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:13:00 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 21:13:00 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 21:13:00 symfony [err] {sfException} Call to undefined method BaseMuestra::getShowNumeroMuestras
+mar 25 21:13:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+mar 25 21:13:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 21:13:00 symfony [info] {sfWebDebugLogger} Configuration 8.06 ms (9)
+mar 25 21:13:00 symfony [info] {sfWebDebugLogger} Factories 31.90 ms (1)
+mar 25 21:13:00 symfony [info] {sfWebDebugLogger} Action "muestra/index" 23.20 ms (1)
+mar 25 21:13:00 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/index" 48.44 ms (1)
+mar 25 21:13:02 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 21:13:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:13:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:13:02 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 21:13:02 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 21:13:02 symfony [err] {sfException} Call to undefined method BaseMuestra::getShowNumeroMuestras
+mar 25 21:13:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+mar 25 21:13:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 21:13:02 symfony [info] {sfWebDebugLogger} Configuration 7.83 ms (9)
+mar 25 21:13:02 symfony [info] {sfWebDebugLogger} Factories 33.68 ms (1)
+mar 25 21:13:02 symfony [info] {sfWebDebugLogger} Action "muestra/index" 31.81 ms (1)
+mar 25 21:13:02 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/index" 50.22 ms (1)
+mar 25 21:13:23 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 21:13:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:13:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:13:23 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 21:13:23 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 21:13:23 symfony [err] {sfException} Call to undefined method BaseMuestra::getNumeroMuestras
+mar 25 21:13:24 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+mar 25 21:13:24 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 21:13:24 symfony [info] {sfWebDebugLogger} Configuration 8.61 ms (9)
+mar 25 21:13:24 symfony [info] {sfWebDebugLogger} Factories 32.80 ms (1)
+mar 25 21:13:24 symfony [info] {sfWebDebugLogger} Action "muestra/index" 26.52 ms (1)
+mar 25 21:13:24 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/index" 51.07 ms (1)
+mar 25 21:13:40 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 21:13:58 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 21:13:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:13:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:13:58 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 21:13:58 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 21:13:58 symfony [err] {sfException} Call to undefined method BaseMuestra::getNumeroMuestras
+mar 25 21:13:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+mar 25 21:13:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 21:13:58 symfony [info] {sfWebDebugLogger} Configuration 9.55 ms (9)
+mar 25 21:13:58 symfony [info] {sfWebDebugLogger} Factories 35.35 ms (1)
+mar 25 21:13:58 symfony [info] {sfWebDebugLogger} Action "muestra/index" 30.76 ms (1)
+mar 25 21:13:58 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/index" 51.63 ms (1)
+mar 25 21:15:29 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 21:15:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:15:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:15:29 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 21:15:29 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 21:15:29 symfony [err] {sfException} Call to undefined method BaseMuestra::getNumeroMuestras
+mar 25 21:15:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+mar 25 21:15:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 21:15:29 symfony [info] {sfWebDebugLogger} Configuration 9.69 ms (9)
+mar 25 21:15:29 symfony [info] {sfWebDebugLogger} Factories 35.63 ms (1)
+mar 25 21:15:29 symfony [info] {sfWebDebugLogger} Action "muestra/index" 26.45 ms (1)
+mar 25 21:15:29 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/index" 53.01 ms (1)
+mar 25 21:17:50 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 21:17:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:17:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:17:50 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 21:18:03 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 21:18:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:18:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:18:03 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 21:18:03 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 21:19:10 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 21:19:10 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:19:10 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:19:10 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 21:19:10 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 21:19:12 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 21:19:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:19:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:19:12 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 21:19:12 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 21:19:42 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 21:19:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:19:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:19:42 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 21:19:42 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 21:19:42 symfony [err] {sfPropelLogger} SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM muestra IS NULL' at line 1
+mar 25 21:19:42 symfony [err] {PropelException}  [wrapped: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM muestra IS NULL' at line 1]
+mar 25 21:19:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+mar 25 21:19:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 21:19:42 symfony [info] {sfWebDebugLogger} Configuration 7.54 ms (9)
+mar 25 21:19:42 symfony [info] {sfWebDebugLogger} Factories 33.91 ms (1)
+mar 25 21:19:42 symfony [info] {sfWebDebugLogger} Action "muestra/index" 27.06 ms (1)
+mar 25 21:19:42 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/index" 70.03 ms (1)
+mar 25 21:20:04 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 21:20:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:20:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:20:04 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 21:20:04 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 21:20:04 symfony [err] {sfPropelLogger} SQLSTATE[42S02]: Base table or view not found: 1146 Table 'test.count(muestra' doesn't exist
+mar 25 21:20:04 symfony [err] {PropelException}  [wrapped: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'test.count(muestra' doesn't exist]
+mar 25 21:20:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+mar 25 21:20:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 21:20:04 symfony [info] {sfWebDebugLogger} Configuration 9.01 ms (9)
+mar 25 21:20:04 symfony [info] {sfWebDebugLogger} Factories 37.47 ms (1)
+mar 25 21:20:04 symfony [info] {sfWebDebugLogger} Action "muestra/index" 36.50 ms (1)
+mar 25 21:20:04 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/index" 70.07 ms (1)
+mar 25 21:24:16 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 21:24:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:24:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:24:16 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 21:24:16 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 21:24:16 symfony [err] {sfException} Call to undefined method BaseMuestra::getNumeroMuestras
+mar 25 21:24:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+mar 25 21:24:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 21:24:16 symfony [info] {sfWebDebugLogger} Configuration 9.23 ms (9)
+mar 25 21:24:16 symfony [info] {sfWebDebugLogger} Factories 29.91 ms (1)
+mar 25 21:24:16 symfony [info] {sfWebDebugLogger} Action "muestra/index" 31.92 ms (1)
+mar 25 21:24:16 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/index" 48.31 ms (1)
+mar 25 21:24:55 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /muestra with parameters array (  'module' => 'muestra',  'action' => 'index',)
+mar 25 21:24:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:24:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:24:55 symfony [info] {muestraActions} Call "muestraActions->executeIndex()"
+mar 25 21:24:55 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/indexSuccess.php"
+mar 25 21:24:55 symfony [err] {sfException} Call to undefined method BaseMuestra::getNumeroMuestras
+mar 25 21:24:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+mar 25 21:24:55 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 21:24:55 symfony [info] {sfWebDebugLogger} Configuration 9.62 ms (9)
+mar 25 21:24:55 symfony [info] {sfWebDebugLogger} Factories 33.36 ms (1)
+mar 25 21:24:55 symfony [info] {sfWebDebugLogger} Action "muestra/index" 24.60 ms (1)
+mar 25 21:24:55 symfony [info] {sfWebDebugLogger} View "Success" for "muestra/index" 52.77 ms (1)
+mar 25 21:25:35 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /muestra/getNumeroMuestras with parameters array (  'module' => 'muestra',  'action' => 'getNumeroMuestras',)
+mar 25 21:25:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:25:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:25:35 symfony [info] {muestraActions} Call "muestraActions->executeGetNumeroMuestras()"
+mar 25 21:25:35 symfony [err] {sfException} Call to undefined method sfWebRequest::getNumeroMuestra.
+mar 25 21:25:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+mar 25 21:25:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 21:25:35 symfony [info] {sfWebDebugLogger} Configuration 8.63 ms (8)
+mar 25 21:25:35 symfony [info] {sfWebDebugLogger} Factories 32.54 ms (1)
+mar 25 21:25:35 symfony [info] {sfWebDebugLogger} Action "muestra/getNumeroMuestras" 35.62 ms (1)
+mar 25 21:26:36 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /muestra/GetNumeroMuestras with parameters array (  'module' => 'muestra',  'action' => 'GetNumeroMuestras',)
+mar 25 21:26:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:26:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:26:36 symfony [info] {muestraActions} Call "muestraActions->executeGetNumeroMuestras()"
+mar 25 21:26:36 symfony [err] {sfException} Call to undefined method sfWebRequest::getNumeroMuestra.
+mar 25 21:26:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+mar 25 21:26:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 21:26:36 symfony [info] {sfWebDebugLogger} Configuration 8.96 ms (8)
+mar 25 21:26:36 symfony [info] {sfWebDebugLogger} Factories 31.59 ms (1)
+mar 25 21:26:36 symfony [info] {sfWebDebugLogger} Action "muestra/GetNumeroMuestras" 34.65 ms (1)
+mar 25 21:26:46 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /muestra/GetNumeroMuestras with parameters array (  'module' => 'muestra',  'action' => 'GetNumeroMuestras',)
+mar 25 21:26:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:26:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:26:46 symfony [info] {muestraActions} Call "muestraActions->executeGetNumeroMuestras()"
+mar 25 21:26:46 symfony [err] {sfException} Call to undefined method sfWebRequest::getNumeroMuestra.
+mar 25 21:26:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+mar 25 21:26:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 21:26:46 symfony [info] {sfWebDebugLogger} Configuration 8.43 ms (8)
+mar 25 21:26:46 symfony [info] {sfWebDebugLogger} Factories 40.88 ms (1)
+mar 25 21:26:46 symfony [info] {sfWebDebugLogger} Action "muestra/GetNumeroMuestras" 36.33 ms (1)
+mar 25 21:27:03 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /muestra/GetNumeroMuestras with parameters array (  'module' => 'muestra',  'action' => 'GetNumeroMuestras',)
+mar 25 21:27:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:27:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:27:03 symfony [info] {muestraActions} Call "muestraActions->executeGetNumeroMuestras()"
+mar 25 21:27:03 symfony [err] {sfException} Call to undefined method sfWebRequest::getNumeroMuestras.
+mar 25 21:27:03 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+mar 25 21:27:03 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 21:27:03 symfony [info] {sfWebDebugLogger} Configuration 7.29 ms (8)
+mar 25 21:27:03 symfony [info] {sfWebDebugLogger} Factories 32.18 ms (1)
+mar 25 21:27:03 symfony [info] {sfWebDebugLogger} Action "muestra/GetNumeroMuestras" 40.17 ms (1)
+mar 25 21:27:05 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /muestra/GetNumeroMuestras with parameters array (  'module' => 'muestra',  'action' => 'GetNumeroMuestras',)
+mar 25 21:27:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:27:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:27:05 symfony [info] {muestraActions} Call "muestraActions->executeGetNumeroMuestras()"
+mar 25 21:27:05 symfony [err] {sfException} Call to undefined method sfWebRequest::getNumeroMuestras.
+mar 25 21:27:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+mar 25 21:27:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 21:27:05 symfony [info] {sfWebDebugLogger} Configuration 7.18 ms (8)
+mar 25 21:27:05 symfony [info] {sfWebDebugLogger} Factories 34.66 ms (1)
+mar 25 21:27:05 symfony [info] {sfWebDebugLogger} Action "muestra/GetNumeroMuestras" 36.32 ms (1)
+mar 25 21:27:31 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /muestra/GetNumeroMuestras with parameters array (  'module' => 'muestra',  'action' => 'GetNumeroMuestras',)
+mar 25 21:27:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:27:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:27:31 symfony [info] {muestraActions} Call "muestraActions->executeGetNumeroMuestras()"
+mar 25 21:27:31 symfony [err] {sfException} Call to undefined method sfWebRequest::getNumeroMuestras.
+mar 25 21:27:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+mar 25 21:27:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 21:27:31 symfony [info] {sfWebDebugLogger} Configuration 8.17 ms (8)
+mar 25 21:27:31 symfony [info] {sfWebDebugLogger} Factories 36.60 ms (1)
+mar 25 21:27:31 symfony [info] {sfWebDebugLogger} Action "muestra/GetNumeroMuestras" 35.94 ms (1)
+mar 25 21:34:57 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /muestra/GetNumeroMuestras with parameters array (  'module' => 'muestra',  'action' => 'GetNumeroMuestras',)
+mar 25 21:34:57 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:34:57 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:34:57 symfony [info] {muestraActions} Call "muestraActions->executeGetNumeroMuestras()"
+mar 25 21:34:57 symfony [err] {sfException} Call to undefined method muestraActions::doSelect.
+mar 25 21:34:57 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+mar 25 21:34:57 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 21:34:57 symfony [info] {sfWebDebugLogger} Configuration 8.44 ms (8)
+mar 25 21:34:57 symfony [info] {sfWebDebugLogger} Factories 35.02 ms (1)
+mar 25 21:34:57 symfony [info] {sfWebDebugLogger} Action "muestra/GetNumeroMuestras" 40.36 ms (1)
+mar 25 21:34:58 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /muestra/GetNumeroMuestras with parameters array (  'module' => 'muestra',  'action' => 'GetNumeroMuestras',)
+mar 25 21:34:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:34:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:34:58 symfony [info] {muestraActions} Call "muestraActions->executeGetNumeroMuestras()"
+mar 25 21:34:58 symfony [err] {sfException} Call to undefined method muestraActions::doSelect.
+mar 25 21:34:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+mar 25 21:34:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 21:34:58 symfony [info] {sfWebDebugLogger} Configuration 7.52 ms (8)
+mar 25 21:34:58 symfony [info] {sfWebDebugLogger} Factories 31.03 ms (1)
+mar 25 21:34:58 symfony [info] {sfWebDebugLogger} Action "muestra/GetNumeroMuestras" 40.21 ms (1)
+mar 25 21:35:14 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /muestra/GetNumeroMuestras with parameters array (  'module' => 'muestra',  'action' => 'GetNumeroMuestras',)
+mar 25 21:35:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:35:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:35:14 symfony [info] {muestraActions} Call "muestraActions->executeGetNumeroMuestras()"
+mar 25 21:35:14 symfony [err] {sfPropelLogger} SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM muestra IS NULL' at line 1
+mar 25 21:35:14 symfony [err] {PropelException}  [wrapped: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM muestra IS NULL' at line 1]
+mar 25 21:35:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+mar 25 21:35:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 21:35:14 symfony [info] {sfWebDebugLogger} Configuration 8.24 ms (8)
+mar 25 21:35:14 symfony [info] {sfWebDebugLogger} Factories 34.78 ms (1)
+mar 25 21:35:14 symfony [info] {sfWebDebugLogger} Action "muestra/GetNumeroMuestras" 85.26 ms (1)
+mar 25 21:38:22 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /muestra/GetNumeroMuestras with parameters array (  'module' => 'muestra',  'action' => 'GetNumeroMuestras',)
+mar 25 21:38:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:38:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:38:22 symfony [info] {muestraActions} Call "muestraActions->executeGetNumeroMuestras()"
+mar 25 21:38:23 symfony [err] {sfPropelLogger} SQLSTATE[42S02]: Base table or view not found: 1146 Table 'test.count(muestra' doesn't exist
+mar 25 21:38:23 symfony [err] {PropelException}  [wrapped: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'test.count(muestra' doesn't exist]
+mar 25 21:38:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+mar 25 21:38:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 21:38:23 symfony [info] {sfWebDebugLogger} Configuration 8.61 ms (8)
+mar 25 21:38:23 symfony [info] {sfWebDebugLogger} Factories 33.06 ms (1)
+mar 25 21:38:23 symfony [info] {sfWebDebugLogger} Action "muestra/GetNumeroMuestras" 88.08 ms (1)
+mar 25 21:38:48 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /muestra/GetNumeroMuestras with parameters array (  'module' => 'muestra',  'action' => 'GetNumeroMuestras',)
+mar 25 21:38:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:38:48 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:38:48 symfony [info] {muestraActions} Call "muestraActions->executeGetNumeroMuestras()"
+mar 25 21:38:48 symfony [err] {sfPropelLogger} SQLSTATE[42S02]: Base table or view not found: 1146 Table 'test.(muestra' doesn't exist
+mar 25 21:38:48 symfony [err] {PropelException}  [wrapped: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'test.(muestra' doesn't exist]
+mar 25 21:38:48 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+mar 25 21:38:48 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 21:38:48 symfony [info] {sfWebDebugLogger} Configuration 7.86 ms (8)
+mar 25 21:38:48 symfony [info] {sfWebDebugLogger} Factories 33.05 ms (1)
+mar 25 21:38:48 symfony [info] {sfWebDebugLogger} Action "muestra/GetNumeroMuestras" 79.16 ms (1)
+mar 25 21:39:12 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /muestra/GetNumeroMuestras with parameters array (  'module' => 'muestra',  'action' => 'GetNumeroMuestras',)
+mar 25 21:39:27 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /muestra/GetNumeroMuestras with parameters array (  'module' => 'muestra',  'action' => 'GetNumeroMuestras',)
+mar 25 21:39:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:39:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:39:27 symfony [info] {muestraActions} Call "muestraActions->executeGetNumeroMuestras()"
+mar 25 21:39:27 symfony [err] {sfRenderException} The template "GetNumeroMuestrasArray.php" does not exist or is unreadable in "".
+mar 25 21:39:27 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+mar 25 21:39:27 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 21:39:27 symfony [info] {sfWebDebugLogger} Configuration 7.81 ms (9)
+mar 25 21:39:27 symfony [info] {sfWebDebugLogger} Factories 31.98 ms (1)
+mar 25 21:39:27 symfony [info] {sfWebDebugLogger} Action "muestra/GetNumeroMuestras" 19.71 ms (1)
+mar 25 21:39:27 symfony [info] {sfWebDebugLogger} View "Array" for "muestra/GetNumeroMuestras" 41.95 ms (1)
+mar 25 21:41:32 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /muestra/GetNumeroMuestras with parameters array (  'module' => 'muestra',  'action' => 'GetNumeroMuestras',)
+mar 25 21:41:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:41:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:41:32 symfony [info] {muestraActions} Call "muestraActions->executeGetNumeroMuestras()"
+mar 25 21:41:32 symfony [err] {sfRenderException} The template "GetNumeroMuestrasArray.php" does not exist or is unreadable in "".
+mar 25 21:41:32 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+mar 25 21:41:32 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 21:41:32 symfony [info] {sfWebDebugLogger} Configuration 9.00 ms (9)
+mar 25 21:41:32 symfony [info] {sfWebDebugLogger} Factories 32.19 ms (1)
+mar 25 21:41:32 symfony [info] {sfWebDebugLogger} Action "muestra/GetNumeroMuestras" 22.05 ms (1)
+mar 25 21:41:32 symfony [info] {sfWebDebugLogger} View "Array" for "muestra/GetNumeroMuestras" 28.35 ms (1)
+mar 25 21:41:33 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /muestra/GetNumeroMuestras with parameters array (  'module' => 'muestra',  'action' => 'GetNumeroMuestras',)
+mar 25 21:41:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:41:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:41:33 symfony [info] {muestraActions} Call "muestraActions->executeGetNumeroMuestras()"
+mar 25 21:41:33 symfony [err] {sfRenderException} The template "GetNumeroMuestrasArray.php" does not exist or is unreadable in "".
+mar 25 21:41:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+mar 25 21:41:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 21:41:33 symfony [info] {sfWebDebugLogger} Configuration 5.57 ms (9)
+mar 25 21:41:33 symfony [info] {sfWebDebugLogger} Factories 25.96 ms (1)
+mar 25 21:41:33 symfony [info] {sfWebDebugLogger} Action "muestra/GetNumeroMuestras" 16.96 ms (1)
+mar 25 21:41:33 symfony [info] {sfWebDebugLogger} View "Array" for "muestra/GetNumeroMuestras" 25.92 ms (1)
+mar 25 21:41:56 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /muestra/GetNumeroMuestras with parameters array (  'module' => 'muestra',  'action' => 'GetNumeroMuestras',)
+mar 25 21:41:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:41:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:41:56 symfony [info] {muestraActions} Call "muestraActions->executeGetNumeroMuestras()"
+mar 25 21:41:56 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/GetNumeroMuestrasArray.php"
+mar 25 21:41:56 symfony [notice] {sfWebDebugLogger}  Notice at C:\sfprojects\labcontrol\apps\frontend\modules\muestra\templates\getNumeroMuestrasArray.php on line 10 (Undefined variable: Muestras)
+mar 25 21:41:56 symfony [warning] {sfWebDebugLogger}  Warning at C:\sfprojects\labcontrol\apps\frontend\modules\muestra\templates\getNumeroMuestrasArray.php on line 10 (Invalid argument supplied for foreach())
+mar 25 21:41:56 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 21:41:56 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 21:41:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 21:41:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 21:41:56 symfony [info] {sfWebDebugLogger} Configuration 5.43 ms (9)
+mar 25 21:41:56 symfony [info] {sfWebDebugLogger} Factories 26.81 ms (1)
+mar 25 21:41:56 symfony [info] {sfWebDebugLogger} Action "muestra/GetNumeroMuestras" 27.05 ms (1)
+mar 25 21:41:56 symfony [info] {sfWebDebugLogger} View "Array" for "muestra/GetNumeroMuestras" 16.41 ms (1)
+mar 25 21:41:56 symfony [info] {sfWebResponse} Send content (30050 o)
+mar 25 21:44:34 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /muestra/GetNumeroMuestras with parameters array (  'module' => 'muestra',  'action' => 'GetNumeroMuestras',)
+mar 25 21:44:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:44:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:44:34 symfony [info] {muestraActions} Call "muestraActions->executeGetNumeroMuestras()"
+mar 25 21:44:34 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/GetNumeroMuestrasArray.php"
+mar 25 21:44:34 symfony [notice] {sfWebDebugLogger}  Notice at C:\sfprojects\labcontrol\apps\frontend\modules\muestra\templates\getNumeroMuestrasArray.php on line 10 (Undefined variable: Muestras)
+mar 25 21:44:34 symfony [warning] {sfWebDebugLogger}  Warning at C:\sfprojects\labcontrol\apps\frontend\modules\muestra\templates\getNumeroMuestrasArray.php on line 10 (Invalid argument supplied for foreach())
+mar 25 21:44:34 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 21:44:34 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 21:44:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 21:44:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 21:44:34 symfony [info] {sfWebDebugLogger} Configuration 9.94 ms (9)
+mar 25 21:44:34 symfony [info] {sfWebDebugLogger} Factories 33.93 ms (1)
+mar 25 21:44:34 symfony [info] {sfWebDebugLogger} Action "muestra/GetNumeroMuestras" 20.01 ms (1)
+mar 25 21:44:34 symfony [info] {sfWebDebugLogger} View "Array" for "muestra/GetNumeroMuestras" 18.36 ms (1)
+mar 25 21:44:34 symfony [info] {sfWebResponse} Send content (30050 o)
+mar 25 21:52:46 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /muestra/GetNumeroMuestras with parameters array (  'module' => 'muestra',  'action' => 'GetNumeroMuestras',)
+mar 25 21:52:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:52:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:52:46 symfony [info] {muestraActions} Call "muestraActions->executeGetNumeroMuestras()"
+mar 25 21:52:46 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/GetNumeroMuestrasArray.php"
+mar 25 21:52:46 symfony [notice] {sfWebDebugLogger}  Notice at C:\sfprojects\labcontrol\apps\frontend\modules\muestra\templates\getNumeroMuestrasArray.php on line 10 (Undefined variable: Muestras)
+mar 25 21:52:46 symfony [warning] {sfWebDebugLogger}  Warning at C:\sfprojects\labcontrol\apps\frontend\modules\muestra\templates\getNumeroMuestrasArray.php on line 10 (Invalid argument supplied for foreach())
+mar 25 21:52:46 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 21:52:46 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 21:52:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 21:52:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 21:52:46 symfony [info] {sfWebDebugLogger} Configuration 9.00 ms (9)
+mar 25 21:52:46 symfony [info] {sfWebDebugLogger} Factories 32.08 ms (1)
+mar 25 21:52:46 symfony [info] {sfWebDebugLogger} Action "muestra/GetNumeroMuestras" 26.61 ms (1)
+mar 25 21:52:46 symfony [info] {sfWebDebugLogger} View "Array" for "muestra/GetNumeroMuestras" 14.45 ms (1)
+mar 25 21:52:46 symfony [info] {sfWebResponse} Send content (30050 o)
+mar 25 21:52:47 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /muestra/GetNumeroMuestras with parameters array (  'module' => 'muestra',  'action' => 'GetNumeroMuestras',)
+mar 25 21:52:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:52:48 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:52:48 symfony [info] {muestraActions} Call "muestraActions->executeGetNumeroMuestras()"
+mar 25 21:52:48 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/GetNumeroMuestrasArray.php"
+mar 25 21:52:48 symfony [notice] {sfWebDebugLogger}  Notice at C:\sfprojects\labcontrol\apps\frontend\modules\muestra\templates\getNumeroMuestrasArray.php on line 10 (Undefined variable: Muestras)
+mar 25 21:52:48 symfony [warning] {sfWebDebugLogger}  Warning at C:\sfprojects\labcontrol\apps\frontend\modules\muestra\templates\getNumeroMuestrasArray.php on line 10 (Invalid argument supplied for foreach())
+mar 25 21:52:48 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 21:52:48 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 21:52:48 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 21:52:48 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 21:52:48 symfony [info] {sfWebDebugLogger} Configuration 4.86 ms (9)
+mar 25 21:52:48 symfony [info] {sfWebDebugLogger} Factories 26.48 ms (1)
+mar 25 21:52:48 symfony [info] {sfWebDebugLogger} Action "muestra/GetNumeroMuestras" 25.34 ms (1)
+mar 25 21:52:48 symfony [info] {sfWebDebugLogger} View "Array" for "muestra/GetNumeroMuestras" 12.15 ms (1)
+mar 25 21:52:48 symfony [info] {sfWebResponse} Send content (30049 o)
+mar 25 21:56:16 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /muestra/GetNumeroMuestras with parameters array (  'module' => 'muestra',  'action' => 'GetNumeroMuestras',)
+mar 25 21:56:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:56:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:56:16 symfony [info] {muestraActions} Call "muestraActions->executeGetNumeroMuestras()"
+mar 25 21:56:16 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/GetNumeroMuestrasArray.php"
+mar 25 21:56:16 symfony [notice] {sfWebDebugLogger}  Notice at C:\sfprojects\labcontrol\apps\frontend\modules\muestra\templates\getNumeroMuestrasArray.php on line 10 (Undefined variable: Muestras)
+mar 25 21:56:16 symfony [warning] {sfWebDebugLogger}  Warning at C:\sfprojects\labcontrol\apps\frontend\modules\muestra\templates\getNumeroMuestrasArray.php on line 10 (Invalid argument supplied for foreach())
+mar 25 21:56:16 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 21:56:16 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 21:56:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 21:56:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 21:56:16 symfony [info] {sfWebDebugLogger} Configuration 13.02 ms (9)
+mar 25 21:56:16 symfony [info] {sfWebDebugLogger} Factories 32.96 ms (1)
+mar 25 21:56:16 symfony [info] {sfWebDebugLogger} Action "muestra/GetNumeroMuestras" 28.44 ms (1)
+mar 25 21:56:16 symfony [info] {sfWebDebugLogger} View "Array" for "muestra/GetNumeroMuestras" 15.06 ms (1)
+mar 25 21:56:17 symfony [info] {sfWebResponse} Send content (30052 o)
+mar 25 21:57:46 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /muestra/GetNumeroMuestras with parameters array (  'module' => 'muestra',  'action' => 'GetNumeroMuestras',)
+mar 25 21:57:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 21:57:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 21:57:46 symfony [info] {muestraActions} Call "muestraActions->executeGetNumeroMuestras()"
+mar 25 21:57:46 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/GetNumeroMuestrasArray.php"
+mar 25 21:57:46 symfony [notice] {sfWebDebugLogger}  Notice at C:\sfprojects\labcontrol\apps\frontend\modules\muestra\templates\getNumeroMuestrasArray.php on line 11 (Undefined variable: MuestraPeer)
+mar 25 22:01:15 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /muestra/GetNumeroMuestras with parameters array (  'module' => 'muestra',  'action' => 'GetNumeroMuestras',)
+mar 25 22:01:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 22:01:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 22:01:15 symfony [info] {muestraActions} Call "muestraActions->executeGetNumeroMuestras()"
+mar 25 22:01:15 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/GetNumeroMuestrasArray.php"
+mar 25 22:01:15 symfony [notice] {sfWebDebugLogger}  Notice at C:\sfprojects\labcontrol\apps\frontend\modules\muestra\templates\getNumeroMuestrasArray.php on line 11 (Undefined variable: MuestraPeer)
+mar 25 22:02:11 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /muestra/GetNumeroMuestras with parameters array (  'module' => 'muestra',  'action' => 'GetNumeroMuestras',)
+mar 25 22:02:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 22:02:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 22:02:11 symfony [info] {muestraActions} Call "muestraActions->executeGetNumeroMuestras()"
+mar 25 22:02:11 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/GetNumeroMuestrasArray.php"
+mar 25 22:02:11 symfony [notice] {sfWebDebugLogger}  Notice at C:\sfprojects\labcontrol\apps\frontend\modules\muestra\templates\getNumeroMuestrasArray.php on line 11 (Undefined variable: MuestraPeer)
+mar 25 22:09:16 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /muestra/GetNumeroMuestras with parameters array (  'module' => 'muestra',  'action' => 'GetNumeroMuestras',)
+mar 25 22:09:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 22:09:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 22:09:16 symfony [info] {muestraActions} Call "muestraActions->executeGetNumeroMuestras()"
+mar 25 22:09:16 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/GetNumeroMuestrasArray.php"
+mar 25 22:09:16 symfony [notice] {sfWebDebugLogger}  Notice at C:\sfprojects\labcontrol\apps\frontend\modules\muestra\templates\getNumeroMuestrasArray.php on line 11 (Undefined variable: MuestraPeer)
+mar 25 22:09:43 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /muestra/GetNumeroMuestras with parameters array (  'module' => 'muestra',  'action' => 'GetNumeroMuestras',)
+mar 25 22:09:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 22:09:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 22:09:43 symfony [info] {muestraActions} Call "muestraActions->executeGetNumeroMuestras()"
+mar 25 22:09:43 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/GetNumeroMuestrasArray.php"
+mar 25 22:10:07 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /muestra/GetNumeroMuestras with parameters array (  'module' => 'muestra',  'action' => 'GetNumeroMuestras',)
+mar 25 22:10:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 22:10:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 22:10:07 symfony [info] {muestraActions} Call "muestraActions->executeGetNumeroMuestras()"
+mar 25 22:10:07 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/GetNumeroMuestrasArray.php"
+mar 25 22:10:07 symfony [notice] {sfWebDebugLogger}  Notice at C:\sfprojects\labcontrol\apps\frontend\modules\muestra\templates\getNumeroMuestrasArray.php on line 11 (Undefined variable: MuestraPeer)
+mar 25 22:10:29 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /muestra/GetNumeroMuestras with parameters array (  'module' => 'muestra',  'action' => 'GetNumeroMuestras',)
+mar 25 22:10:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 22:10:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 22:10:29 symfony [info] {muestraActions} Call "muestraActions->executeGetNumeroMuestras()"
+mar 25 22:10:29 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/GetNumeroMuestrasArray.php"
+mar 25 22:11:02 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /muestra/GetNumeroMuestras with parameters array (  'module' => 'muestra',  'action' => 'GetNumeroMuestras',)
+mar 25 22:11:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 22:11:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 22:11:02 symfony [info] {muestraActions} Call "muestraActions->executeGetNumeroMuestras()"
+mar 25 22:11:02 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/GetNumeroMuestrasArray.php"
+mar 25 22:11:02 symfony [err] {sfException} Call to undefined method sfPHPView::doSelect.
+mar 25 22:11:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+mar 25 22:11:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 22:11:02 symfony [info] {sfWebDebugLogger} Configuration 8.70 ms (9)
+mar 25 22:11:02 symfony [info] {sfWebDebugLogger} Factories 33.26 ms (1)
+mar 25 22:11:02 symfony [info] {sfWebDebugLogger} Action "muestra/GetNumeroMuestras" 19.28 ms (1)
+mar 25 22:11:02 symfony [info] {sfWebDebugLogger} View "Array" for "muestra/GetNumeroMuestras" 38.47 ms (1)
+mar 25 22:11:22 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /muestra/GetNumeroMuestras with parameters array (  'module' => 'muestra',  'action' => 'GetNumeroMuestras',)
+mar 25 22:11:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+mar 25 22:11:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+mar 25 22:11:22 symfony [info] {muestraActions} Call "muestraActions->executeGetNumeroMuestras()"
+mar 25 22:11:22 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\modules/muestra/templates/GetNumeroMuestrasArray.php"
+mar 25 22:11:22 symfony [info] {sfPHPView} Decorate content with "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 22:11:22 symfony [info] {sfPHPView} Render "C:\sfprojects\labcontrol\apps\frontend\templates/layout.php"
+mar 25 22:11:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+mar 25 22:11:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+mar 25 22:11:22 symfony [info] {sfWebDebugLogger} Configuration 9.50 ms (9)
+mar 25 22:11:22 symfony [info] {sfWebDebugLogger} Factories 34.82 ms (1)
+mar 25 22:11:22 symfony [info] {sfWebDebugLogger} Action "muestra/GetNumeroMuestras" 18.94 ms (1)
+mar 25 22:11:22 symfony [info] {sfWebDebugLogger} View "Array" for "muestra/GetNumeroMuestras" 14.74 ms (1)
+mar 25 22:11:22 symfony [info] {sfWebResponse} Send content (29572 o)
